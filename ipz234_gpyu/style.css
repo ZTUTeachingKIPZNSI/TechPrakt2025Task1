@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #c4c4fd;
 }
 
 .news-container {
@@ -15,7 +15,7 @@ body {
 
 .news-item {
     display: flex;
-    background-color: #ffffff;
+    background-color: #d1d1d1;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
