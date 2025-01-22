@@ -16,11 +16,11 @@ body{
     margin: auto;
     display: inline-grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-items: center;
     gap: 20px;
     .block{
-        height: 35vh;
+        height: 40vh;
         background: #9ACBD0;
         width: 400px;
         border:1px solid black;
@@ -28,4 +28,10 @@ body{
 }
 .text-adjust{
     text-align: center;
+}
+footer{
+    margin: 20px;
+    p{
+        padding: 10px;
+    }
 }
