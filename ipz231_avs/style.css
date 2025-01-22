@@ -1,0 +1,16 @@
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.news-item {
+    background: Black;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
