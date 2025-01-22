@@ -99,6 +99,11 @@ section {
     background-position: center;
     background-size: cover;
 }
+#pic4{
+    background-image: url("images/pic4.png");
+    background-position: center;
+    background-size: cover;
+}
 .sec_header {
     background-color: #2b2b64;
     width: 80%;
