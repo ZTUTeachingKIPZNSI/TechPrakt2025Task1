@@ -17,3 +17,17 @@ header {
     width: 100%;
     max-width: 400px;
 }
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .news {
+        text-align: center;
+    }
+
+    .news img {
+        max-width: 100%;
+    }
+}
