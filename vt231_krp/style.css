@@ -38,6 +38,7 @@
   display: flex;
   gap: 20px;
   overflow: hidden;
+  animation: slide 2s;
 }
 
 .post__image {
@@ -56,4 +57,13 @@
 
 .post__content p {
   color: #363636;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
