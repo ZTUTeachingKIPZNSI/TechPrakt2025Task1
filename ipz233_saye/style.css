@@ -7,3 +7,16 @@
 .container.row {
     flex-direction: row;
 }
+
+.images {
+    width: 30%;
+}
+
+div.images + div {
+    width: 70%;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
