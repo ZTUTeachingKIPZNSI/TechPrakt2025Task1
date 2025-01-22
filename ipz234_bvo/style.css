@@ -4,9 +4,27 @@
     box-sizing: border-box;
 }
 body{
+
     margin: 10px;
     font-family: 'Poppins', sans-serif;
     background: #F2EFE7;
+}
+.headline{
+    margin-bottom: 20px;
+}
+.container{
+    margin: auto;
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    .block{
+        height: 35vh;
+        background: #9ACBD0;
+        width: 400px;
+        border:1px solid black;
+    }
 }
 .text-adjust{
     text-align: center;
