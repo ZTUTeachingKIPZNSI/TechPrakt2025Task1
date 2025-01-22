@@ -42,7 +42,6 @@ section {
     border-radius: 10px;
     width: 80%;
     padding: 20px;
-    opacity: 0.8;
 }
 
 .news_block ul {
@@ -101,6 +100,11 @@ section {
 }
 #pic4{
     background-image: url("images/pic4.png");
+    background-position: center;
+    background-size: cover;
+}
+#pic5{
+    background-image: url("images/pic5.png");
     background-position: center;
     background-size: cover;
 }
