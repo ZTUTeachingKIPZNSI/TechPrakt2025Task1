@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    background-color: #007bff;
+    background-color: #9053e7;
     color: #fff;
     padding: 5px;
     text-align: center;
@@ -21,7 +21,7 @@ h1 {
 }
 
 article {
-    border: 1px solid #ccc;
+    border: 4px solid #ccc;
     padding: 20px;
     flex: 1;
     max-width: 50%;
