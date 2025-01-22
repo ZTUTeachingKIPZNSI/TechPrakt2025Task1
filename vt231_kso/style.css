@@ -140,3 +140,46 @@ header nav ul li.btn a:hover,
     top: -150px;
     right: 0;
 }
+.trending {
+    padding-top: 50px;
+}
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all,
+.projects .see-all {
+    color: #fff;
+    background: #25211D;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.trending .see-all:hover,
+.projects .see-all:hover {
+    transform: scale(1.1);
+}
+
+.trending .games {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.trending .games span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trending .games span img {
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
