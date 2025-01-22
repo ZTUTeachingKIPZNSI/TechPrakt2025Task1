@@ -15,14 +15,25 @@ body{
 .container{
     margin: auto;
     display: inline-grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     gap: 20px;
+    img{
+        border-radius: 10%;
+        border: 5px solid white;
+        height: 75%;
+        width:auto;
+    }
     .block{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
         height: 40vh;
         background: #9ACBD0;
-        width: 400px;
+        width: 500px;
         border:1px solid black;
     }
 }
