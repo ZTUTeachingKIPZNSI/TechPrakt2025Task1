@@ -1,12 +1,15 @@
 :root {
   --main-color:#111111;
+  --bg-color: #ffffff;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   color: var(--main-color);
+  background-color: var(--bg-color);
 
   font-family: Arial, sans-serif;
 }
