@@ -1,11 +1,14 @@
 :root {
     --primary: #2b6cb0;
     --secondary: #4299e1;
-    --background: #f7fafc;
+    --background: #2584ea;
     --text: #2d3748;
     --card-bg: #ffffff;
     --accent: #38b2ac;
     --border: #edf2f7;
+    --link: #1a73e8;
+    --button-bg: #2b6cb0;
+    --button-text: #ffffff;
 }
 
 * {
@@ -19,6 +22,7 @@ body {
     background: var(--background);
     color: var(--text);
     line-height: 1.6;
+    font-size: 16px;
     padding: 0;
     margin: 0;
 }
@@ -42,6 +46,32 @@ header p {
     font-size: 1.2rem;
     opacity: 0.85;
     margin-bottom: 2rem;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+button {
+    background: var(--button-bg);
+    color: var(--button-text);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: var(--primary);
+    transform: scale(1.05);
 }
 
 .container {
