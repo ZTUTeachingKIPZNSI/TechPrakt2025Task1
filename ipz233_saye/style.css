@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 15px;
 }
 
 .container.row {
@@ -19,4 +20,8 @@ div.images + div {
 img {
     width: 100%;
     object-fit: contain;
+}
+
+* {
+    font-size: 20px;
 }
