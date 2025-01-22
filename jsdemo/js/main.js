@@ -1,43 +1,45 @@
 let arr = [
     {
-        "name": "Petro",
-        "age": 19,
+        "name": "Ruslan",
+        "age": 18,
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Ruslan",
+        "age": 18,
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Ruslan",
+        "age": 18,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Ruslan",
+        "age": 18,
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Ruslan",
+        "age": 18,
         "title": "description"
     },
+    {
+        "name": "Ruslan",
+        "age": 18,
+        "title": "description"
+    },  {
+        "name": "Ruslan",
+        "age": 18,
+        "title": "description"
+    },  {
+        "name": "Ruslan",
+        "age": 18,
+        "title": "description"
+    },  {
+        "name": "Ruslan",
+        "age": 18,
+        "title": "description"
+    },
+
 ];
 
 class UserPanels {
