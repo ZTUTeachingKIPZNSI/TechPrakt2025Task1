@@ -33,7 +33,7 @@ main {
 }
 
 .news-item img {
-  width: 150px;
+  width: 500px;
   height: auto;
   object-fit: cover;
 }
