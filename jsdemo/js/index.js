@@ -44,7 +44,7 @@ let x = 1;
 let y = 2;
 [x, y] = [y, x];
 
-
+console.log("Зміни в папці jsdemo виконано!");
 
 function func2(a, b, c) {
     console.log(a);
