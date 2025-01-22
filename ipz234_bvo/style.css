@@ -35,6 +35,13 @@ body{
         background: #9ACBD0;
         width: 500px;
         border:1px solid black;
+        .full-description-gif{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: #286868;
+            text-align: center;
+        }
     }
 }
 .text-adjust{
