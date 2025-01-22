@@ -23,3 +23,8 @@ div {
 section {
     display: flex;
 }
+
+span {
+    padding-top: 10px;
+    color: white
+}
