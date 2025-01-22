@@ -41,6 +41,7 @@ nav ul li a {
 
 /* Герой секція */
 /* Герой секція */
+/* Герой секція */
 .hero {
     background-image: url('https://media.istockphoto.com/id/1349390515/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B8%D0%B4%D0%B5%D1%8F-%D0%B1%D0%B5%D0%B7%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%8C-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%8C-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82.jpg?s=612x612&w=0&k=20&c=63vzkYxUPmQa5T46_JXNHxpjdHPmZ_SWzOz-gNUwZ3E=');
     background-size: cover;
@@ -63,11 +64,11 @@ nav ul li a {
     width: 100%;
     height: 100%;
     background-image: inherit;
-    filter: blur(5px); /* Легке розмиття */
-    z-index: -1; /* Забезпечує, щоб текст і кнопка були поверх фону */
+    filter: blur(5px);
+    z-index: -1;
 }
 
-/* Тексти і кнопка залишаються на передньому плані */
+/* Тексти і кнопка */
 .hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
@@ -90,8 +91,6 @@ nav ul li a {
 .hero .btn:hover {
     background-color: #ff6347;
 }
-
-
 .hero .btn {
     padding: 10px 20px;
     background-color: #ff7f50;
