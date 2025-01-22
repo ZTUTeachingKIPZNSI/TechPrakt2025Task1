@@ -20,4 +20,36 @@ body {
     border-radius: 8px;
 }
 
+.news-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    width: 800px;
+}
 
+.news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.news-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-content {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.news-image {
+    width: 800px; 
+    height: 600px; 
+    object-fit: cover; 
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
