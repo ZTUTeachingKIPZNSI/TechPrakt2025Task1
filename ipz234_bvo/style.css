@@ -22,11 +22,11 @@ body{
     img{
         border-radius: 10%;
         border: 5px solid white;
-        height: 75%;
+        height: 80%;
         width:auto;
     }
     .block{
-        padding: 20px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -45,7 +45,7 @@ body{
     }
 }
 .text-adjust{
-    text-align: center;
+    text-align: left;
 }
 footer{
     margin: 20px;
