@@ -1,0 +1,28 @@
+.panel {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+.panel .header {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ddd;
+}
+
+.panel .header .title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.panel.selected {
+    background-color: greenyellow;
+}
+.panel .header div {
+    cursor: pointer;
+}
+img{
+    max-width: 250px;
+    max-height: 200px;
+}
