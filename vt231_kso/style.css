@@ -352,3 +352,45 @@ header nav ul li.btn a:hover,
     z-index: 2;
     color: #fff;
 }
+footer {
+    background: #000;
+    padding: 50px 0;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks p {
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .blocks h4 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+footer .blocks ul {
+    list-style: none;
+}
+
+footer .blocks ul li {
+    margin-top: 7px;
+    opacity: 0.8;
+}
+
+footer hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ccc;
+}
+
+footer>p {
+    text-align: center;
+}
+
+
+
