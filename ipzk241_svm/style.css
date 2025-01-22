@@ -15,7 +15,7 @@ body {
     width: auto;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #d6d0d0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -23,7 +23,7 @@ body {
 .news-item {
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #b8b3b3;
     width: 800px;
 }
 
@@ -34,13 +34,13 @@ body {
 }
 
 .news-title {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #333;
     margin-bottom: 10px;
 }
 
 .news-content {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #555;
     margin: 10px 0;
 }
