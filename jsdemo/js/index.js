@@ -58,6 +58,5 @@ func2(...arr2);*/
 let myf = user.getLogin;
 console.log(myf.bind(user));
 
-console.log(user.getLogin());
-const admin = new Admin('admin', '123456', 'all');
-*/
+kssjsjbbbbbbbb,,,,
+
