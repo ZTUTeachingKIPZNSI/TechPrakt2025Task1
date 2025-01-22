@@ -10,3 +10,21 @@ body {
     color: #4f4f4f;
     line-height: 1.6;
 }
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #6b8e23, #98fb98); 
+    color: white;
+    padding: 30px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #f8f8f8;
+}
