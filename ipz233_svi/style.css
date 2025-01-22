@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #0073e6;
+    background: red;
     color: white;
     text-align: center;
     padding: -10px;
@@ -20,7 +20,7 @@ header {
 }
 
 article {
-    border-radius: 5px;
+    border-radius: 7px;
     border: 1px solid #ccc;
     padding: 10px 0;
     transition: transform 0.3s ease-in-out;
