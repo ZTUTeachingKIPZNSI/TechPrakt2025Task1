@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="slider-container">
+    <div class="slide active">
+        <img src="news1.jpg" alt="Новина 1">
+        <h2>Іннагурація Дональда Трампа 20.01.2025</h2>
+        <p>20 січня до влади приходить знову Дональд Трамп, котрий вже був президентом</p>
+        <button onclick="openNews(1)">Читати більше</button>
+    </div>
+    <div class="slide">
+        <img src="news2.jpg" alt="Новина 2">
+        <h2>Ілон Маск і його "дивні задуми"</h2>
+        <p>Ми не знаємо що він хотів показати цим всьому світу, але хтось дуже засмутився такими показами</p>
+        <button onclick="openNews(2)">Читати більше</button>
+    </div>
+    <div class="slide">
+        <img src="news3.jpg" alt="Новина 3">
+        <h2>Дональд Трамп об'являє війну Панамі щоб забрати у них Панамський канал</h2>
+        <p>Дональд Трамп намірений забрати Панамський канал будь-якими способами</p>
+        <button onclick="openNews(3)">Читати більше</button>
+    </div>
+    <div class="slide">
+        <img src="news4.jpg" alt="Новина 4">
+        <h2>Дональд Трамп обговорює приєднання Канади до США</h2>
+        <p>Дональд Трамп зустрівся з прем'єр-міністорм Канади для обговорення...</p>
+        <button onclick="openNews(4)">Читати більше</button>
+    </div>
+    <div class="arrows">
+        <span class="arrow left" onclick="changeSlide(-1)">&#10094;</span>
+        <span class="arrow right" onclick="changeSlide(1)">&#10095;</span>
+    </div>
+</div>
+<div id="newsFull" class="news-content"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
