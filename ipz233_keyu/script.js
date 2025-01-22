@@ -24,4 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
         newsFull.innerHTML = `<h2>${newsData[index - 1].title}</h2><p>${newsData[index - 1].text}</p>`;
         newsFull.classList.add('show');
     }
+
+    document.querySelectorAll(".arrow").forEach((arrow, index) => {
+        arrow.addEventListener("click", () => changeSlide(index === 0 ? -1 : 1));
+    });
+
+    setInterval(() => changeSlide(1), 5000);
 });
