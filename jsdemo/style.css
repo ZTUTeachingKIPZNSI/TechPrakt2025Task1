@@ -1,10 +1,64 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+/* Загальні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
-div.user div {
+
+/* Панелі */
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Заголовок */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Виділена панель */
+.panel.selected {
+    border-color: #4caf50;
+    background-color: #e8f5e9;
+}
+
+/* Інтерактивні стилі */
+.panel .header:hover .title {
+    color: #4caf50;
     cursor: pointer;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+/* Для мобільних пристроїв */
+@media (max-width: 768px) {
+    .panel {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 1.3em;
+    }
 }
