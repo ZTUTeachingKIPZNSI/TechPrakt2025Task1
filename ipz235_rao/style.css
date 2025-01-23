@@ -51,6 +51,7 @@ header > p:hover {
     animation-name: rotateElement;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 img{
     width:300px;
@@ -67,6 +68,9 @@ footer>a{
     font-size: 24px;
     text-align: center;
     text-decoration: none;
+    justify-content: center;
+    align-content: center;
+
 }
 footer>p{
     padding: 0;
