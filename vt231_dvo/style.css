@@ -1,0 +1,14 @@
+.con{
+    margin: 10px;
+    text-align: center;
+
+}
+img{
+   width: auto;
+}
+p{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    border: 2px solid black ;
+}
