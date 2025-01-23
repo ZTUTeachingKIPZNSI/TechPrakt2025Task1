@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: blue;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
 }
 
 main {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 article {
@@ -33,7 +33,7 @@ article img {
 
 footer {
     background: #333;
-    color: #fff;
+    color: green;
     text-align: center;
     padding: 1rem 0;
 }
