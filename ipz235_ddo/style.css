@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/header_background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #d30c0c;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(211, 12, 12, 0.8);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.news_block {
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+}
+
+.news_block ul {
+    padding: 0;
+    margin: 0;
+}
+
+.news_block li {
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.news_block li h2 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.news_block li p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.pic {
+    background-image: url("images/pic1.webp");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+#pic1{
+    background-image: url("images/pic1.webp");
+    background-position: center;
+    background-size: cover;
+}
+#pic2{
+    background-image: url("images/pic3.png");
+    background-position: center;
+    background-size: cover;
+}
+#pic3{
+    background-image: url("images/pic3.png");
+    background-position: center;
+    background-size: cover;
+}
+#pic4{
+    background-image: url("images/pic3.png");
+    background-position: center;
+    background-size: cover;
+}
+#pic5{
+    background-image: url("images/pic3.png");
+    background-position: center;
+    background-size: cover;
+}
+.sec_header {
+    background-color: pink;
+    width: 80%;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.news_block li .date {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: right;
+}
