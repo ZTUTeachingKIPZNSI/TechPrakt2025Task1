@@ -89,7 +89,7 @@ section {
     background-size: cover;
 }
 #pic2{
-    background-image: url("images/pic2.png");
+    background-image: url("images/pic3.png");
     background-position: center;
     background-size: cover;
 }
@@ -99,17 +99,17 @@ section {
     background-size: cover;
 }
 #pic4{
-    background-image: url("images/pic4.png");
+    background-image: url("images/pic3.png");
     background-position: center;
     background-size: cover;
 }
 #pic5{
-    background-image: url("images/pic5.png");
+    background-image: url("images/pic3.png");
     background-position: center;
     background-size: cover;
 }
 .sec_header {
-    background-color: #2b2b64;
+    background-color: pink;
     width: 80%;
     padding: 10px 20px;
     color: #ffffff;
