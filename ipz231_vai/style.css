@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.root {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.date {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.content {
+    line-height: 20px;
+}
