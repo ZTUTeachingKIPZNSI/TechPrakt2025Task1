@@ -6,9 +6,9 @@ body {
 }
 
 header {
-    background-color: #0078d7;
+    background-color: #d7a500;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 .news-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .news-item img {
