@@ -4,13 +4,13 @@ body {
     padding: 0;
 }
 header {
-    background: #333;
-    color: white;
+    background: darkgreen;
+    color: darkgrey;
     text-align: center;
     padding: 10px 0;
 }
 .news {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid white;
     padding: 10px;
 }
 .news img {
