@@ -8,11 +8,11 @@ body {
 }
 
 .header {
-    background-color: #f8c471;
+    background-color: #f8c475;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     margin-bottom: 1.5rem;
 }
 
@@ -49,7 +49,7 @@ body {
 .news-item img {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #f8c471;
+    border-bottom: 2px solid #f8c491;
 }
 
 .news-item h2 {
