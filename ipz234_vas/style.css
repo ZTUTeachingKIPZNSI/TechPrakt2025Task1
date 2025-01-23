@@ -36,8 +36,8 @@ header {
 .panel {
     display: flex;
     gap: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     align-items: end;
 
     div {
