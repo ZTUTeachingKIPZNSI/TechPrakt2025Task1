@@ -1,10 +1,22 @@
 div.user {
-    border:1px solid black;
-    padding:10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    transition: background-color 0.3s ease;
 }
+
+div.user:hover {
+    background-color: lightblue;
+}
+
 div.user div {
     cursor: pointer;
+    padding: 5px;
 }
+
+/* Selected user styling */
 div.user.selected {
     background-color: greenyellow;
+    font-weight: bold;
 }
