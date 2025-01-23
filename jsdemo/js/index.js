@@ -1,4 +1,3 @@
-
 class User {
     #login;
     #password;
@@ -16,10 +15,20 @@ class User {
     testPassword(password) {
         return this.#password === password;
     }
+
     display() {
         console.log(this.#login);
     }
+
+    changePassword(newPassword) {
+        this.#password = newPassword;
+    }
+
+    getUserInfo() {
+        return `Login: ${this.#login}, Password: ${this.#password}`;
+    }
 }
+
 
 class Admin extends User {
     #role;

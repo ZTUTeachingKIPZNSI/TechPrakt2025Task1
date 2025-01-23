@@ -1,0 +1,10 @@
+.news-item {
+    border: 1px solid #7c1818;
+    padding: 16px;
+    margin: 16px 0;
+}
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    size: cover;
+}
