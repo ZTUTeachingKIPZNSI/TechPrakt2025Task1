@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+}
+
+.container.row {
+    flex-direction: row;
+    gap: 30px;
+}
+
+.images {
+    width: 35%;
+}
+
+div.images + div {
+    width: 65%;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+* {
+    font-size: 25px;
+}
