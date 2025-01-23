@@ -12,3 +12,22 @@ header {
     text-align: center;
     padding: 1rem;
 }
+
+main {
+    padding: 1rem;
+}
+
+.news article {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
