@@ -22,7 +22,7 @@ img {
 }
 
 .wrapper {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(26, 14, 1, 1) 100%);
+    background: linear-gradient(180deg, rgb(35, 31, 31) 0%, rgba(26, 14, 1, 1) 100%);
     width: 100%;
     overflow-x: hidden;
 }
@@ -32,7 +32,7 @@ img {
     margin: 0 auto;
 }
 header {
-    padding: 50px 0;
+    padding: 52px 0;
 }
 header .logo,
 footer .blocks .logo {
@@ -59,14 +59,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff
+    color: #f8e1e1
 }
 
 header nav ul li.active::after {
     content: '';
     display: block;
     width: 40px;
-    height: 5px;
+    height: 8px;
     background: #DC7000;
     border-radius: 10px;
     position: relative;
@@ -83,7 +83,7 @@ header nav ul li.btn a,
     background: #FA9021;
     padding: 9px 17px;
     border-radius: 5px;
-    transition: all 500ms ease;
+    transition: all 600ms ease;
 }
 
 header nav ul li.btn a:hover,
@@ -102,7 +102,7 @@ header nav ul li.btn a:hover,
 }
 
 .hero--info h2 {
-    color: #E87D0E;
+    color: #ce6e0a;
     font-size: 20px;
     font-weight: 600;
 }
@@ -157,7 +157,7 @@ header nav ul li.btn a:hover,
     padding: 12px 23px;
     float: right;
     display: block;
-    transition: all 500ms ease;
+    transition: all 600ms ease;
 }
 
 .trending .see-all:hover,
