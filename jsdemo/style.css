@@ -4,7 +4,34 @@ div.user {
 }
 div.user div {
     cursor: pointer;
+
 }
 div.user.selected {
     background-color: greenyellow;
+    color: dodgerblue;
+    animation: highlightEffect 5s ease forwards;
 }
+
+@keyframes highlightEffect {
+    0% {
+        background-color: greenyellow;
+        color: dodgerblue;
+        transform: scale(0.8);
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+    50% {
+        background-color: lightgreen;
+        color: blue;
+        transform: scale(0.90);
+        box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+    }
+    100% {
+        background-color: limegreen;
+        color: #063769;
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(0, 255, 0, 1);
+    }
+}
+
+
+
