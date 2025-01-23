@@ -1,0 +1,19 @@
+img {
+  width: 500px;
+  height: 100%;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+.blockNews {
+  width: 500px;
+  border: solid 1px gray;
+  border-radius: 5%;
+  box-shadow: 1px 1px 1px 0.5px gray;
+    div{
+        align-items: center;
+        text-align: center;
+    }
+    p{
+        padding: 0 5px;
+    }
+}
