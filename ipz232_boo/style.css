@@ -1,0 +1,11 @@
+h2{
+    color:red;
+    font-weight:bold;
+}
+
+.images{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
