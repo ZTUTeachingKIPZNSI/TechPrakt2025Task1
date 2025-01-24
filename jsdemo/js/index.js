@@ -50,6 +50,7 @@ function func2(a, b, c) {
     console.log(a);
     console.log(b);
     console.log(c);
+    console.log("Test changes");
 }
 /*let arr2 = [1,2,3,4,5];
 func2(...arr2);*/
