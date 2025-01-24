@@ -1,0 +1,33 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #67676b;
+    color: #333;
+}
+
+header {
+    background-color: #ac6fee;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.news article {
+    border: 1px solid #ddd;
+    background-color: #f1a4a4;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(164, 92, 92, 0.1);
+}
+
+.news img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
