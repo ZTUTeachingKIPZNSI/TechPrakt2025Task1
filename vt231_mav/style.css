@@ -4,13 +4,13 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f3f4f6; /* Світлий сірий фон */
+    color: #2d2d2d; /* Темно-сірий текст */
 }
 
 /* Хедер */
 header {
-    background: linear-gradient(90deg, #4CAF50, #81C784);
+    background: linear-gradient(90deg, #0077b6, #00b4d8); /* Синьо-бірюзовий градієнт */
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -38,7 +38,7 @@ main {
 /* Статті */
 article {
     margin-bottom: 2.5rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e0e0e0;
     padding-bottom: 2rem;
 }
 
@@ -48,7 +48,7 @@ article:last-child {
 
 article h2 {
     font-size: 2rem;
-    color: #4CAF50;
+    color: #0077b6; /* Насичений синій */
     margin-bottom: 0.7rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ article img:hover {
 
 article p {
     font-size: 1.1rem;
-    color: #555;
+    color: #555; /* Нейтральний текст */
     line-height: 1.8;
     text-align: justify;
     text-indent: 2em;
@@ -83,14 +83,14 @@ article p {
 article p:first-letter {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #4CAF50;
+    color: #00b4d8; /* Бірюзовий акцент */
 }
 
 /* Футер */
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #4CAF50;
+    background-color: #0077b6; /* Насичений синій */
     color: white;
     margin-top: 2rem;
     font-size: 0.9rem;
