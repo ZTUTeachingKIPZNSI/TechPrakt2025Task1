@@ -1,10 +1,52 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+/* Загальний стиль для body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
 }
-div.user div {
-    cursor: pointer;
+
+/* Панелі */
+.panel {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+/* Анімація при наведенні */
+.panel:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Заголовки панелей */
+.header {
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Контент всередині панелей */
+.content {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
 }
