@@ -1,4 +1,12 @@
 
+class UnauthorizedUser
+{
+    constructor(login, password) {
+        this.#login = "";
+        this.#password = "";
+    }
+}
+
 class User {
     #login;
     #password;
