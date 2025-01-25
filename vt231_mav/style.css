@@ -4,17 +4,18 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6; /* Світлий сірий фон */
-    color: #2d2d2d; /* Темно-сірий текст */
+    background-color: #FFFAFA;
+    color: #2d2d2d;
 }
 
 /* Хедер */
 header {
-    background: linear-gradient(90deg, #0077b6, #00b4d8); /* Синьо-бірюзовий градієнт */
+    background: linear-gradient(90deg, #8B4513, #D2B48C);
     color: white;
     text-align: center;
     padding: 2rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #A0522D;
 }
 
 header h1 {
@@ -30,7 +31,7 @@ main {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
-    background: #ffffff;
+    background: #FFFAF0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -40,6 +41,8 @@ article {
     margin-bottom: 2.5rem;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 2rem;
+    text-transform: capitalize; /* Капіталізація слів */
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); /* Легка тінь */
 }
 
 article:last-child {
@@ -48,7 +51,7 @@ article:last-child {
 
 article h2 {
     font-size: 2rem;
-    color: #0077b6; /* Насичений синій */
+    color: #BC8F8F;
     margin-bottom: 0.7rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -71,7 +74,7 @@ article img:hover {
 
 article p {
     font-size: 1.1rem;
-    color: #555; /* Нейтральний текст */
+    color: #555;
     line-height: 1.8;
     text-align: justify;
     text-indent: 2em;
@@ -83,14 +86,14 @@ article p {
 article p:first-letter {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #00b4d8; /* Бірюзовий акцент */
+    color: #800000;
 }
 
 /* Футер */
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #0077b6; /* Насичений синій */
+    background-color: #D2B48C;
     color: white;
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -100,7 +103,7 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
 }
