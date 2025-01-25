@@ -63,3 +63,11 @@ main {
     flex: 1;
     padding: 2rem;
 }
+.Task input[type="text"]
+{    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+  
+    border-radius: 4px;
+  
+}
