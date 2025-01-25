@@ -1,1 +1,0 @@
-# TechPrakt2025Task1
