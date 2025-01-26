@@ -5,9 +5,9 @@ let arr = [
         "title": "description"
     },
     {
-        "name": "Sergiy",
+        "name": "Anastasiia",
         "age": 19,
-        "title": "description"
+        "title": "IPZ-23-1"
     },
     {
         "name": "Sergiy",
