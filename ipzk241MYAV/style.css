@@ -67,7 +67,20 @@ main {
 {    width: 100%;
     max-width: 300px;
     padding: 0.5rem;
-  
+    border-radius: 4px; 
+}
+.Task button {
+    justify-content: center;
+    background-color: white;
+    color: #8251f5;
+    cursor: pointer;
+    gap: 0.2rem;
+    width: 80px;
     border-radius: 4px;
-  
+    padding: 0.5rem;
+    height: 50px;
+}
+.Task button:hover
+{   background-color:  #a282ee;
+    color: #ffffff;    
 }
