@@ -24,3 +24,51 @@ body {
 	padding-top: 50px;
 	flex: 1 1 auto;
 }
+
+/* ========================================================================== */
+
+/* Header */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	padding: 20px 0;
+	background-color: #bcbcbcee;
+}
+.header__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__logo img {
+	min-height: 32px;
+	max-width: 100%;
+}
+.navigation__list {
+	display: flex;
+	gap: 26px;
+}
+.navigation__link {
+	text-transform: uppercase;
+	color: #222;
+	font-size: 22px;
+}
+.navigation__link:hover {
+	text-decoration: underline;
+}
+
+@media (min-width: 845px) {
+	.header__logo img {
+		min-height: 40px;
+	}
+}
+@media (max-width: 845px) {
+	.header__body {
+		justify-content: center;
+	}
+	.header__navigation {
+		display: none;
+	}
+}
