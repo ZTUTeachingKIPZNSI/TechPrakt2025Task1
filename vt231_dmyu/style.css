@@ -1,0 +1,26 @@
+@import url("./reset.css");
+
+[class*="__container"] {
+	max-width: 1240px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.125rem;
+}
+
+/* ========================================================================== */
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	padding-top: 50px;
+	flex: 1 1 auto;
+}
