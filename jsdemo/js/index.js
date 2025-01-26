@@ -38,7 +38,7 @@ let panelParams = {
     age : 30
 };
 
-let {title, height} = panelParams;
+// let {title, height} = panelParams;
 let [id, title, count, price] = [1, 'title', 10, 10,5];
 let x = 1;
 let y = 2;
@@ -51,13 +51,14 @@ function func2(a, b, c) {
     console.log(b);
     console.log(c);
 }
-/*let arr2 = [1,2,3,4,5];
-func2(...arr2);*/
+let arr2 = [1,2,3,4,5];
+func2(...arr2);
 
-/*
+
 let myf = user.getLogin;
 console.log(myf.bind(user));
 
 console.log(user.getLogin());
 const admin = new Admin('admin', '123456', 'all');
-*/
+
+console.log(7 + `7` + 7);
