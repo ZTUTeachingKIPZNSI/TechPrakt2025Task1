@@ -6,7 +6,7 @@
     width: 100%;
     height: 80px;
     background: rgba(25, 25, 25);
-    border-bottom: solid rgba(255, 0, 0, 0.5) 4px;
+    border-bottom: solid rgba(0, 123, 255, 0.5) 4px;
     position: fixed;
     z-index: 2;
     display: flex;
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 .header-nav:hover{
-    color: rgb(255, 61, 61);
+    color: rgb(61, 168, 255);
 }
 .header-nav-panel, .header-nav, .header-logo{
     display: flex;
@@ -69,7 +69,7 @@ body{
 
     margin: 30px;
     margin-top: 60px;
-    color: rgb(180, 0, 0)
+    color: rgb(0, 105, 180)
 }
 .cards-block{
     width: 95%;
@@ -115,7 +115,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: rgb(180, 0, 0)
+    color: rgb(0, 105, 180)
 }
 a:hover{
     color: rgb(255, 61, 61);
@@ -190,7 +190,7 @@ a:hover{
     color: whitesmoke;
 }
 .music-author{
-    color: rgb(180, 0, 0)
+    color: rgb(0, 105, 180)
 }
 .music-name, .music-author{
     font-size: 24px;
@@ -199,7 +199,7 @@ a:hover{
 .delete-btn, .send-btn{
     width: 400px;
     height: 30px;
-    background: rgb(180, 0, 0);
+    background: rgb(0, 105, 180);
     color: whitesmoke;
     border-radius: 25px;
     display: flex;
@@ -208,7 +208,7 @@ a:hover{
     cursor: pointer;
 }
 .delete-btn:hover, .send-btn:hover{
-    background: rgb(255, 0, 0);
+    background: rgb(0, 132, 255);
 }
 .autorization-form, .get-list-form{
     width: 70%;
