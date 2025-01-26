@@ -42,3 +42,14 @@ main {
     object-fit: cover;
     display: block;
 }
+.news-item h2 {
+    margin: 0;
+    padding: 10px;
+    background: #f8f8f8;
+    font-size: 1.2rem;
+}
+
+.news-item p {
+    padding: 10px;
+    font-size: 0.9rem;
+}
