@@ -139,3 +139,30 @@ body {
 .item-news__button:active {
 	transform: scale(0.94);
 }
+
+/* Footer */
+.footer {
+	padding: 24px 0;
+	background-color: #2d2d2d;
+	color: #fff;
+}
+.footer__link {
+	color: #bbb;
+}
+.footer__link:hover {
+	text-decoration: underline;
+}
+@media (min-width: 845px) {
+	.footer__body {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+@media (max-width: 845px) {
+	.footer__body {
+		text-align: center;
+	}
+	.footer__text {
+		margin-bottom: 14px;
+	}
+}
