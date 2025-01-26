@@ -135,3 +135,39 @@ footer .right-container > div
         }
     }
 }
+
+
+/*
+    Pre Footer
+*/
+.pre-footer
+{
+    background-color: #f5f7fa;
+}
+.pre-footer .inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.pre-footer .inner h2
+{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.pre-footer .inner button
+{
+    background-color: var(--success);
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    transition-duration: 0.5s;
+    &:hover
+    {
+        background-color: darkgreen;
+        cursor: pointer;
+    }
+}
