@@ -1,0 +1,109 @@
+/* Загальні стилі */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAFA;
+    color: #2d2d2d;
+}
+
+/* Хедер */
+header {
+    background: linear-gradient(90deg, #8B4513, #D2B48C);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #A0522D;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin: 0;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Основний вміст */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #FFFAF0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Статті */
+article {
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2rem;
+    text-transform: capitalize; /* Капіталізація слів */
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); /* Легка тінь */
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+article h2 {
+    font-size: 2rem;
+    color: #BC8F8F;
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+article p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    text-indent: 2em;
+    letter-spacing: 0.5px;
+    margin: 0.5rem 0 0;
+}
+
+/* Підзаголовки в тексті */
+article p:first-letter {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #800000;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #D2B48C;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
