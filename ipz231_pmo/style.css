@@ -3,6 +3,8 @@
 {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    border: 1px solid red;
 }
 
 :root
@@ -12,50 +14,124 @@
 
 .inner
 {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
-
+/*
+    HEADER ZONE
+*/
 header > .inner
 {
     display: flex;
-    padding: 15px 125px;
+    padding: 15px 0;
     align-items: center;
     justify-content: space-between;
 
-    >div
+
+}
+header .right-container
+{
+    display: flex;
+    align-items: center;
+
+    ul
     {
         display: flex;
-        align-items: center;
-
-        >ul
+        list-style-type: none;
+        margin-right: 20px;
+        gap: 10px;
+    }
+    a
+    {
+        color: #4D4D4D;
+        text-decoration: none;
+    }
+    >button
+    {
+        background-color: var(--success);
+        border-radius: 2px;
+        padding: 8px 15px;
+        border: none;
+        transition-duration: 0.5s;
+        &:hover
         {
-            display: flex;
-            list-style-type: none;
-            >li
-            {
-                margin-left: 10px;
-            }
-        }
-        >button
-        {
-            margin-left: 20px;
-            background-color: var(--success);
-            border-radius: 2px;
-            padding: 15px 40px;
-            border: none;
-            transition-duration: 0.5s;
-            &:hover
-            {
-                background-color: darkgreen;
-            }
+            background-color: darkgreen;
+            cursor: pointer;
         }
     }
 }
 
+
+
+/*
+
+    FOOTER ZONE
+
+*/
+footer
+{
+    background-color: #263238;
+}
+
 footer > .inner
 {
-    height: 100px;
-    background-color: #263238;
+    padding: 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-container > img
+{
+    margin-bottom: 15px;
+}
+
+footer .left-container > p
+{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer .left-container > div
+{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+
+footer .right-container
+{
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+footer .right-container > div
+{
+    p
+    {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    > ul
+    {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        > li
+        {
+            font-size: 12px;
+            font-family: Inter , sans-serif;
+            a
+            {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
 }
