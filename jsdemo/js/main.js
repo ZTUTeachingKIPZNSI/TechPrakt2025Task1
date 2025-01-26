@@ -102,3 +102,4 @@ class UserPanels {
     }
 }
 let userPanels = new UserPanels(arr);
+console.log("І тут")
