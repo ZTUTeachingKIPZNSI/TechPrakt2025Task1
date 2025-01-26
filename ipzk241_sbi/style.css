@@ -79,16 +79,19 @@ body{
 }
 .card{
     height: 350px;
-    width: 350px;
+    width: 80%;
     background: rgba(30, 30, 30);
     margin: 20px;
     border-radius: 25px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
     color: whitesmoke;
     font-size: 18px;
+}
+.card-content{
+    width: 70%;
 }
 .card-title{
     font-size: 24px;
@@ -98,10 +101,11 @@ body{
     margin-bottom: 15px;
     text-wrap: wrap;
 }
-.video-el{
+.img-el{
     height: auto;
     width: 300px;
     margin: 10px;
+    border-radius: 25px;
 }
 .card-text{
     margin: 5px;
@@ -114,7 +118,7 @@ a{
 a:hover{
     color: rgb(255, 61, 61);
 }
-.card-link{
+.card-about{
     font-size: 16px;
 }
 
