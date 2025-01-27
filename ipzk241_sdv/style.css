@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto Light", sans-serif;
+}
+
+
+header {
+    background: crimson;
+    margin: 0;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+
+.news {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.newsImage{
+    width: 300px;
+    margin: auto;
+}
+
+.newsElement{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid crimson;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+footer{
+    background: crimson;
+    color: white;
+    width: 100%;
+}
