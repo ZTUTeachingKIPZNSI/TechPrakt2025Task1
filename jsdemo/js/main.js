@@ -5,7 +5,7 @@ let arr = [
         "title": "description"
     },
     {
-        "name": "Sergiy",
+        "name": "Dmytro",
         "age": 19,
         "title": "description"
     },
