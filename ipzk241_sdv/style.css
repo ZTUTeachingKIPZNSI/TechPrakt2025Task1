@@ -43,3 +43,10 @@ h1 {
     padding: 10px;
     border-radius: 10px;
 }
+
+
+footer{
+    background: cornflowerblue;
+    color: white;
+    width: 100%;
+}
