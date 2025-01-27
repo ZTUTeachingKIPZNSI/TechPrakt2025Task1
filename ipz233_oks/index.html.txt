@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Новини</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Перша новина</h2>
+            <img src="images/news1.jpg" alt="Картинка новини">
+            <p>Текст першої новини.</p>
+        </article>
+        <article>
+            <h2>Друга новина</h2>
+            <img src="images/news2.jpg" alt="Картинка новини">
+            <p>Текст другої новини.</p>
+        </article>
+    </main>
+</body>
+</html>
