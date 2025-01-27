@@ -11,7 +11,7 @@ let arr = [
     },
     {
         "name": "Sergiy",
-        "age": 19,
+        "age": 18,
         "title": "description"
     }, {
         "name": "Sergiy",
@@ -35,7 +35,7 @@ let arr = [
         "title": "description"
     },{
         "name": "Sergiy",
-        "age": 19,
+        "age": 20,
         "title": "description"
     },
 ];
