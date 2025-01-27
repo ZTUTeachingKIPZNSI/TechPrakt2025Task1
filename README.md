@@ -4,4 +4,4 @@
 Список студентів, які виконали завдання:
 * Савчук Дмитро Володимирович, група ІПЗк-24-1
 
-*e-mail: ipzk241_sdv@student.ztu.edu.ua
+e-mail: ipzk241_sdv@student.ztu.edu.ua
