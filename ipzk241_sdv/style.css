@@ -25,6 +25,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -34,8 +35,11 @@ h1 {
 }
 
 .newsElement{
+    margin: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
 }
