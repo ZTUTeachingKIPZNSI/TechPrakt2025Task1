@@ -1,0 +1,275 @@
+:root {
+    --text-primary: #717171;
+    --text-secondary: #4caf4f;
+    --text-footer: white;
+
+
+    --text-head-primary: #4d4d4d;
+    --text-head-secondary: #4caf4f;
+    --text-head-footer: white;
+
+
+    --bg-primary: #f5f7fa;
+    --bg-footer: #263238;
+
+    /* Fonts` sizes */
+    --xs: 13px;
+    --s: 15px;
+    --m: 26px;
+    --l: 46px;
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    /*border: 1px solid red;*/
+
+    font-family: Inter, serif;
+}
+button
+{
+    background-color: #4caf4f;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: none;
+    transition-duration: 0.5s;
+    color: white;
+    font-size: var(--xs);
+    &:hover
+    {
+        background-color: darkgreen;
+        cursor: pointer;
+    }
+}
+.inner
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/*
+    HEADER ZONE
+*/
+header > .inner
+{
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+header .right-container
+{
+    display: flex;
+    align-items: center;
+
+    ul
+    {
+        display: flex;
+        list-style-type: none;
+        margin-right: 20px;
+        gap: 10px;
+    }
+    a
+    {
+        color: var(--text-primary);
+        font-size: var(--xs);
+        text-decoration: none;
+    }
+}
+
+
+/*
+    REGISTER ZONE
+*/
+.register { background-color: var(--bg-primary); }
+.register .inner
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+}
+
+.register .inner > div > p:first-of-type
+{
+    font-size: var(--l);
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    color: var(--text-head-primary);
+    margin-bottom: 10px;
+    >span { color: var(--text-head-secondary); font-weight: bold; }
+}
+.register .inner > div > p:last-of-type
+{
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+
+/*
+    Caring
+*/
+.caring .inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 120px ;
+}
+.caring .inner > h3
+{
+    font-size: var(--m);
+    color: var(--text-head-primary);
+    font-weight: bold;
+    line-height: 31px;
+}
+.caring .inner > p
+{
+    font-size: var(--xs);
+    color: var(--text-primary);
+    line-height: 17px;
+    text-align: center;
+}
+.caring .container
+{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.caring .item
+{
+    width: 256px;
+    height: 200px;
+    position: relative;
+    border-radius: 12px;
+    background-size: contain;
+    &:nth-of-type(1) { background-image: url("images/caring1.png"); }
+    &:nth-of-type(2) { background-image: url("images/caring2.png"); }
+    &:nth-of-type(3) { background-image: url("images/caring3.png"); }
+}
+.caring .sub-item
+{
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+    background-color: var(--bg-primary);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px darkgray;
+}
+.caring .sub-item p
+{
+    text-align: center;
+    font-size: var(--s);
+    color: var(--text-primary);
+}
+.caring .sub-item a
+{
+    font-size: var(--s);
+    color: var(--text-secondary);
+}
+
+
+/*
+    Pre Footer
+*/
+.pre-footer
+{
+    background-color: var(--bg-primary);
+}
+.pre-footer .inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 0;
+}
+
+
+.pre-footer .inner h2
+{
+    font-size: var(--l);
+    font-weight: bold;
+    color: var(--bg-footer);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/*
+
+    FOOTER ZONE
+
+*/
+footer
+{
+    background-color: var(--bg-footer);
+}
+
+footer > .inner
+{
+    padding: 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-container > img
+{
+    margin-bottom: 15px;
+}
+
+footer .left-container > p
+{
+    font-size: var(--xs);
+    color: var(--text-footer);
+    margin-bottom: 5px;
+}
+
+footer .left-container > div
+{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+
+footer .right-container
+{
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .right-container > div
+{
+    p
+    {
+        margin-bottom: 15px;
+        font-size: var(--s);
+        color: var(--text-head-footer);
+    }
+    > ul
+    {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        > li > a
+            {
+                text-decoration: none;
+                font-size: var(--xs);
+                color: var(--text-footer);
+                font-family: Inter , sans-serif;
+            }
+    }
+}
