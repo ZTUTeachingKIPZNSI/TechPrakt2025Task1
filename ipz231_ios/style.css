@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #a4b3b8;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 1399px;
+  background: #f6f6fa;
+}
+.wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+}
+
+.sidebar {
+  background-color: #e0ebfe;
+  width: 370px;
+  padding-top: 40px;
+  padding-top: 40px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 80px;
+  padding-bottom: 110px;
+  margin-bottom: 5px;
+}
+
+.contacts-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 34px;
+}
+
+.contacts-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+.contacts-tel {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #161d2a;
+}
+
+.contacts-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contacts-link-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #161d2a;
+  margin-right: 10px;
+}
+
+.tech-skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+.tech-skills-container {
+  padding-left: 38px;
+  padding-right: 211px;
+  padding-top: 40px;
+}
+
+.tech-skills-item {
+  font-weight: 400;
+  margin-left: 25px;
+  font-size: 14px;
+  color: #161d2a;
+}
+
+.tech-skills-text {
+  color: #161d2a;
+}
+
+.soft-skills-container {
+  padding-left: 38px;
+  padding-right: 211px;
+  padding-top: 40px;
+}
+
+.profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  margin-top: 5px;
+}
+
+.info-container {
+  margin-bottom: 40px;
+}
+
+.about-me-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.projects-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  margin-left: 10px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #005fff;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tech-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+.tech-name span {
+  margin-right: 5px;
+}
+
+.dots {
+  stroke-width: 1px;
+  stroke: #a8a8a8;
+}
+
+.projects-item {
+  font-weight: 700;
+  margin-left: 17px;
+}
+
+.projects-container {
+  width: 526px;
+  height: 107px;
+  margin-bottom: 40px;
+}
+.info {
+  width: 526px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.profession-title1 {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+.uni-name {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+}
+
+.profession-company {
+  color: #6d9bf5;
+}
+.profession-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.profession-time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+}
+
+.professional-duties {
+  padding-left: 30px;
+  padding-right: 50px;
+  margin-top: 5px;
+}
+
+.professional-duties-item {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 171%;
+  color: #595959;
+}
+.professional-duties-item span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #595959;
+}
+
+.company-1,
+.company-2 {
+  margin-bottom: 12px;
+}
+.company-3 {
+  margin-bottom: 40px;
+}
+
+.education {
+  margin: 8px;
+}
