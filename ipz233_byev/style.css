@@ -2,13 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background-color: #e0e0e0; /* Новий фон */
 }
 header {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  font-size: 22px; /* Змінив розмір шрифту */
 }
 footer {
   text-align: center;
