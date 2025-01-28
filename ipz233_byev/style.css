@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0; /* Новий фон */
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 22px; /* Змінив розмір шрифту */
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+main {
+  padding: 20px;
+}
+.news {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.news-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.news-item h2 {
+  margin: 15px;
+  font-size: 20px;
+  color: #333;
+}
+.news-item p {
+  margin: 15px;
+  color: #555;
+}
+.news img {
+  width: 150px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+.news-item {
+  text-align: center; 
+  margin-bottom: 20px;
+}

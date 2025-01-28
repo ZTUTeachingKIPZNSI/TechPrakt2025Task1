@@ -68,6 +68,14 @@ class UserPanels {
             }
         }
     }
+    displayUserCount() {
+        const count = this.#userArray.length;
+        console.log(`Total users: ${count}`);
+        let counterTag = document.createElement('div');
+        counterTag.id = 'user-count';
+        counterTag.innerText = `Кількість користувачів: ${count}`;
+        document.body.prepend(counterTag);
+    }
     #build() {
         this.loadState();
         let containerTag = document.createElement('div');
@@ -87,6 +95,7 @@ class UserPanels {
             containerTag.appendChild(divTag);
         }
         document.body.appendChild(containerTag);
+        this.displayUserCount(); // Відобразити кількість користувачів
         document.documentElement.addEventListener('click',
             (event) => {
                 let tag = event.target;
