@@ -218,3 +218,64 @@ header nav ul li.btn a:hover,
     width: 100%;
     margin-bottom: 30px;
 }
+.features {
+    background: url('/img/BG.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.features h3,
+.features p {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features h3 {
+    font-size: 30px;
+}
+
+.features .info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features .info .block {
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+}
+
+.features .info .block img {
+    margin-bottom: 15px;
+}
+
+.projects {
+    padding: 100px 0;
+}
+
+.projects h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.projects p {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.projects .images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.projects .see-all {
+    float: none;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
