@@ -26,13 +26,17 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 .news img {
     width: 50%;
     border-radius: 10px;
+    align-self: center;
 }
 
 h2 {
     color: #333;
+    align-self: center;
 }
