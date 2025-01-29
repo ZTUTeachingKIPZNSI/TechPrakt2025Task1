@@ -66,6 +66,7 @@ main {
 }
 
 .news-item .highlight {
+    font-style: italic;
     font-weight: bold;
     background-color: #e6f2ff;
     padding: 10px;
@@ -73,7 +74,7 @@ main {
 }
 
 footer {
-    background-color: #003366;
+    background-color: rgb(234, 95, 4);
     color: white;
     text-align: center;
     padding: 15px;
