@@ -51,6 +51,8 @@ function func2(a, b, c) {
     console.log(b);
     console.log(c);
 }
+
+console.log("Успішні зміни у директорії js.demo");
 /*let arr2 = [1,2,3,4,5];
 func2(...arr2);*/
 
