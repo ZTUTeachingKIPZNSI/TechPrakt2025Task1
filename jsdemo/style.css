@@ -2,9 +2,15 @@ div.user {
     border:1px solid black;
     padding:10px;
 }
+
 div.user div {
     cursor: pointer;
 }
+
 div.user.selected {
     background-color: greenyellow;
+}
+
+body{
+    text-align: center;
 }
