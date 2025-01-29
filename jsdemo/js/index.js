@@ -1,4 +1,3 @@
-
 class User {
     #login;
     #password;
@@ -23,7 +22,6 @@ class User {
 
 class Admin extends User {
     #role;
-
     constructor(login, password, role) {
         super(login, password);
         this.#role = role;
@@ -43,8 +41,6 @@ let [id, title, count, price] = [1, 'title', 10, 10,5];
 let x = 1;
 let y = 2;
 [x, y] = [y, x];
-
-
 
 function func2(a, b, c) {
     console.log(a);
