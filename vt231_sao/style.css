@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,11 +10,22 @@ header {
     text-align: center;
     padding: 10px;
 }
-
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
 .news-item {
     width: 300px;
     background: white;
     padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
 }
 .news-item img {
