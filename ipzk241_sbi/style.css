@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-block{
+    width: 100%;
+    height: 80px;
+    background: rgba(25, 25, 25);
+    border-bottom: solid rgba(0, 123, 255, 0.5) 4px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+}
+.header-logo{
+    width: 45%;
+    height: 100%;
+}
+.logo-img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.header-nav-panel{
+    width: 45%;
+    height: 100%;
+    justify-content: space-between;
+}
+.header-nav{
+    height: 60px;
+    width: auto;
+    font-size: 32px;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-nav:hover{
+    color: rgb(61, 168, 255);
+}
+.header-nav-panel, .header-nav, .header-logo{
+    display: flex;
+    align-items: center;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-block{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-block{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+    margin: 30px;
+    margin-top: 60px;
+    color: rgb(0, 105, 180)
+}
+.cards-block{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    height: 350px;
+    width: 80%;
+    background: rgba(30, 30, 30);
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.card-content{
+    width: 70%;
+}
+.card-title{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    text-wrap: wrap;
+}
+.img-el{
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.card-text{
+    margin: 5px;
+    text-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 105, 180)
+}
+a:hover{
+    color: rgb(255, 61, 61);
+}
+.card-about{
+    font-size: 16px;
+}
+
+.footer-block{
+    width: 100%;
+    height: 80px;
+    background: rgba(25, 25, 25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+}
+.footer-part{
+    width: 45%;
+    font-size: 20px;
+}
+.footer-end{
+    display: flex;
+    justify-content: end;
+}
+
+.about-block{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-text{
+    width: 55%;
+    height: auto;
+    color: whitesmoke;
+    font-size: 28px;
+    line-height: 42px;
+}
+.about-img{
+    width: auto;
+    height: 650px;
+}
+.music-list{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.music-el{
+    width: 80%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(30, 30, 30);
+    margin: 20px;
+    border-radius: 25px;
+}
+.music-about{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.music-name{
+    color: whitesmoke;
+}
+.music-author{
+    color: rgb(0, 105, 180)
+}
+.music-name, .music-author{
+    font-size: 24px;
+    margin: 5px;
+}
+.delete-btn, .send-btn{
+    width: 400px;
+    height: 30px;
+    background: rgb(0, 105, 180);
+    color: whitesmoke;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.delete-btn:hover, .send-btn:hover{
+    background: rgb(0, 132, 255);
+}
+.autorization-form, .get-list-form{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+label{
+    color: whitesmoke;
+    font-size: 18px;
+}
+input{
+    font-size: 18px;
+    width: 360px;
+    margin: 5px;
+}
