@@ -1,0 +1,39 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #9053e7;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 15px;
+}
+
+article p {
+    margin: 5px 0;
+}
