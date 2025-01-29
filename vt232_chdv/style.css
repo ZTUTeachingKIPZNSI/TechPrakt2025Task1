@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #443e8d;
     color: white;
     text-align: center;
     padding: 20px;
@@ -17,4 +17,22 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+}
+
+.news {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.news img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
 }
