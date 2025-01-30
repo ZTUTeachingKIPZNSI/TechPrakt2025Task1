@@ -23,7 +23,10 @@ main {
     text-align: center;
 }
 
-
+.news img {
+    width: 100%;
+    border-radius: 8px;
+}
 
 footer {
     background-color: #333;
