@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.news {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+}
