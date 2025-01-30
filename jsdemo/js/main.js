@@ -1,6 +1,6 @@
 let arr = [
     {
-        "name": "Petro",
+        "name": "Ivan",
         "age": 19,
         "title": "description"
     },
