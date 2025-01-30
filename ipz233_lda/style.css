@@ -34,3 +34,6 @@ main {
     height: auto;
     border-radius: 5px;
 }
+img{
+    width: 300px;
+}
