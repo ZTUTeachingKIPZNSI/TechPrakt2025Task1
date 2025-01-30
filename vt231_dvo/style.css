@@ -10,5 +10,9 @@ p{
     padding: 15px;
     margin: 15px;
     font-size: 20px;
-    border: 2px solid black ;
+    border: 4px solid #942222;
+}
+b{
+    border: 4px solid #942222;
+    font-size: 20px;
 }
