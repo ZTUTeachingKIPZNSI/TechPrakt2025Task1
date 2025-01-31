@@ -1,43 +1,49 @@
 let arr = [
     {
-        "name": "Petro",
+        "name": "Bohdan",
         "age": 19,
-        "title": "description"
+        "group": "IPZ23-2"
     },
     {
-        "name": "Sergiy",
+        "name": "Bohdan",
         "age": 19,
-        "title": "description"
+        "group": "IPZ23-2"
     },
     {
-        "name": "Sergiy",
+        "name": "Bohdan",
         "age": 19,
-        "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "group": "IPZ23-2"
     },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    },
+    {
+        "name": "Bohdan",
+        "age": 19,
+        "group": "IPZ23-2"
+    }
 ];
 
 class UserPanels {
@@ -49,10 +55,7 @@ class UserPanels {
         this.#build();
     }
     initializeStateArray() {
-        this.#stateArray = new Array(this.#userArray.length);
-        for(let i = 0; i < this.#stateArray.length; i++) {
-            this.#stateArray[i] = false;
-        }
+        this.#stateArray = new Array(this.#userArray.length).fill(false);
     }
     saveState() {
         localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
@@ -61,8 +64,7 @@ class UserPanels {
         if (localStorage.getItem('panels-state')) {
             try {
                 this.#stateArray = JSON.parse(localStorage.getItem('panels-state'));
-            }
-            catch (exception) {
+            } catch (exception) {
                 this.initializeStateArray();
                 this.saveState();
             }
@@ -75,8 +77,7 @@ class UserPanels {
             let divTag = document.createElement('div');
             divTag.classList.add('user');
             divTag.dataset['id'] = i.toString();
-            if (this.#stateArray[i])
-                divTag.classList.add('selected');
+            if (this.#stateArray[i]) divTag.classList.add('selected');
             for (let field in this.#userArray[i]) {
                 let val = this.#userArray[i][field];
                 let divField = document.createElement('div');
@@ -87,18 +88,15 @@ class UserPanels {
             containerTag.appendChild(divTag);
         }
         document.body.appendChild(containerTag);
-        document.documentElement.addEventListener('click',
-            (event) => {
-                let tag = event.target;
-                tag = tag.closest('.user');
-                if (tag?.classList.contains('user')) {
-                    let id = tag.dataset['id'];
-                    this.#stateArray[id] =
-                        !this.#stateArray[id];
-                    this.saveState();
-                    tag.classList.toggle('selected');
-                }
-            });
+        document.documentElement.addEventListener('click', (event) => {
+            let tag = event.target.closest('.user');
+            if (tag) {
+                let id = tag.dataset['id'];
+                this.#stateArray[id] = !this.#stateArray[id];
+                this.saveState();
+                tag.classList.toggle('selected');
+            }
+        });
     }
 }
 let userPanels = new UserPanels(arr);
