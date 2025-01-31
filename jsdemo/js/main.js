@@ -1,42 +1,38 @@
 let arr = [
     {
-        "name": "Petro",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
+        "name": "Максим Христюк",
+        "age": 18,
+        "title": "ІПЗ-23-2"
     },
 ];
 
