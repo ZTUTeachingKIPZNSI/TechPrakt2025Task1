@@ -11,18 +11,18 @@ body {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 42px;
 }
 .column {
     width: 48%;
     padding: 30px;
-    background-color: rgb(141, 76, 211);
+    background-color: rgb(76, 119, 211);
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .column h2 {
-    color: #fff;
+    color: #7c7c7c;
 }
 .column p {
     color: #fff;
