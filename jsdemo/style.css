@@ -8,3 +8,7 @@ div.user div {
 div.user.selected {
     background-color: greenyellow;
 }
+h1 {
+    color: #ff6347; /* Помаранчевий колір */
+    font-family: Arial, sans-serif;
+}
