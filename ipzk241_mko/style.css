@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.news {
+    margin-bottom: 20px;
+}
+.news img {
+    width: 200px;
+    height: auto;
+}
