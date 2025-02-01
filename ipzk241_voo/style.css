@@ -1,3 +1,8 @@
 * {
     margin: 0px;
 }
+
+.block { 
+    width: 600px;
+    border: 3px black solid;
+}
