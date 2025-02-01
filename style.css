@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: larger;
     background-color: #000000;
     padding: 70px;
 }
@@ -12,8 +13,8 @@ header {
 }
 
 article {
-    background-color: white;
-    padding: 12px;
+    background-color: #e8e8e8;
+    padding: 14px;
     margin-bottom: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,4 +27,8 @@ img {
 
 div {
     text-align: center;
+}
+
+p {
+    color: hsl(244, 88%, 16%);
 }
