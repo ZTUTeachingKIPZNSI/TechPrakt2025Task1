@@ -6,7 +6,7 @@ header{
     height:100px;
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background-color: #8718ee;
     position: relative;
 
 }
@@ -31,7 +31,7 @@ footer > p:hover, footer > a:hover {
 
 header > p:hover {
     color: white;
-    transform: scale(1.4);
+    transform: scale(1.5);
     animation-name: exampleAnimation;
     animation-duration: 3s;
     animation-delay: 0s;
@@ -59,7 +59,7 @@ img{
 
 footer{
     height:100px;
-    background-color: fuchsia;
+    background-color: #fc18fc;
     display: flex;
     flex-direction: column;
     font-size: 24px;
@@ -82,7 +82,7 @@ footer>p{
         transform: scale(1);
     }
     to {
-        transform: scale(1.4);
+        transform: scale(1.5);
     }
 }
 @keyframes rotateElement {
