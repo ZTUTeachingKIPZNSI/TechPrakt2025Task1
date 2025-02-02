@@ -23,6 +23,10 @@ img {
     max-width: 400px;
     border-radius: 5px;
     display: block;
-    margin: 15px auto; 
+    margin: 15px auto;
 }
+.fact {
+    padding: 20px 20px;
+}
+
 
