@@ -1,43 +1,43 @@
 let arr = [
     {
-        "name": "Petro",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
-    },
+    }
 ];
 
 class UserPanels {
