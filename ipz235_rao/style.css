@@ -1,0 +1,39 @@
+.news{
+    width: 300px;
+
+}
+header{
+    height:100px;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    position: relative;
+
+}
+header>p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+footer > p:hover, footer > a:hover {
+    color: white;
+    background-color: #ad1b1b;
+    transform: scale(1.4);
+    animation-name: exampleAnimation;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    transition: background-color 1s, color 1s;
+}
+
+
+header > p:hover {
+    color: white;
+    transform: scale(1.4);
+    animation-name: exampleAnimation;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    transition: color 1s;
+}
