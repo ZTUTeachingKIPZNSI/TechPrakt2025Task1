@@ -1,10 +1,46 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+.panel
+{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 600px;
+    overflow: hidden;
 }
-div.user div {
-    cursor: pointer;
+
+.header
+{
+    background: linear-gradient(135deg, #6f42c1, #f46242);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+.title
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel:hover
+{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+div.user
+{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fafafa;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+div.user:hover
+{
+    background-color: #f0f0f0;
+    transform: scale(1.03);
 }
