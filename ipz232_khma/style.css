@@ -3,20 +3,16 @@ body {
     background-color: #f4f4f4;
 }
 .container {
-    width: 80%;
+    width: 30%;
     margin: 20px;
-    background: #fff;
+    background: #d8d8d8;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.news-item {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
-}
+
 .news-item img {
-    max-width: 10%;
+    max-width: 30%;
     border-radius: 5px;
 }
 .news-item h2 {
