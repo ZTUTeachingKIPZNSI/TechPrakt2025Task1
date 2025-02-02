@@ -77,3 +77,19 @@ footer>p{
     margin: 0;
     text-align: center;
 }
+@keyframes exampleAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+@keyframes rotateElement {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(180deg);
+    }
+}
