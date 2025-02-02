@@ -1,10 +1,13 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
 }
-div.user div {
-    cursor: pointer;
+h1 {
+    color: blue;
 }
-div.user.selected {
-    background-color: greenyellow;
+.news {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
 }
