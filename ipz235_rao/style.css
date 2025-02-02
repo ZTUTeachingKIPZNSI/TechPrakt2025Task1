@@ -37,3 +37,43 @@ header > p:hover {
     animation-delay: 0s;
     transition: color 1s;
 }
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.news{
+    margin:20px;
+    padding: 20px;
+    width:400px;
+}
+.news:hover{
+    animation-name: rotateElement;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+img{
+    width:300px;
+}
+
+footer{
+    height:100px;
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+footer>a{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+
+}
+footer>p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
