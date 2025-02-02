@@ -1,10 +1,27 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+div.user, div.title {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333; 
+    font-family: Arial, sans-serif; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
+
 div.user div {
     cursor: pointer;
+    padding: 5px;
+    background-color: #dcdcdc; 
+    border-radius: 3px; 
+    margin: 5px 0;
+    transition: background-color 0.3s ease; 
 }
+
+div.user div:hover {
+    background-color: #b0b0b0; 
+}
+
 div.user.selected {
     background-color: greenyellow;
+    color: #333; 
 }
