@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя Автобіографія</title>
+    <title>Моя Книга</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
 <div class="book-wrapper">
     <div class="book" id="book">
         <div class="page left-page" id="leftPage">
-            <h1>Привіт, це моя історія!</h1>
-            <p>Перегортай сторінки, щоб дізнатися більше про мене.</p>
+            <h1 class="title">Привіт, це моя історія!</h1>
+            <p class="intro">Перегортай сторінки, щоб дізнатися більше про мене.</p>
         </div>
         <div class="page right-page" id="rightPage">
-            <div class="content" id="content"></div>
+            <div class="content" id="content">
+                <h2>Сторінка 1</h2>
+                <p>Тут розпочинається моя подорож...</p>
+            </div>
             <div class="pagination">
                 Сторінка <span id="pageNumber">1</span> з <span id="totalPages">5</span>
             </div>
         </div>
     </div>
     <div class="controls">
-        <button class="control-button" onclick="prevPage()">← Попередня</button>
-        <button class="control-button" onclick="nextPage()">Наступна →</button>
+        <button class="control-button" id="prevButton" onclick="prevPage()">← Попередня</button>
+        <button class="control-button" id="nextButton" onclick="nextPage()">Наступна →</button>
     </div>
 </div>
 </body>
