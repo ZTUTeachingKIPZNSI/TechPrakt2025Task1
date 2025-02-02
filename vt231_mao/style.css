@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.fact {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2, h1 {
+    text-align: center;
+    color: #444;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.fact {
+    padding: 20px 20px;
+}
+
+
