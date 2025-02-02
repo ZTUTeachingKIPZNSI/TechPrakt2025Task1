@@ -14,10 +14,14 @@ class User {
     }
 
     testPassword(password) {
-        return this.#password === password;
-    }
-    display() {
-        console.log(this.#login);
+        console.log('Password check:', password);
+        if (this.#password === password) {
+            console.log('Password is correct');
+            return true;
+        } else {
+            console.log('Password is incorrect');
+            return false;
+        }
     }
 }
 
