@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f0f0;
+}
+.news {
+    margin-bottom: 20px;
+}
+.news img {
+    width: 200px;
+    height: auto;
+}
