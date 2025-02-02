@@ -1,0 +1,95 @@
+.news{
+    width: 300px;
+
+}
+header{
+    height:100px;
+    margin: 0;
+    padding: 0;
+    background-color: #8718ee;
+    position: relative;
+
+}
+header>p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+footer > p:hover, footer > a:hover {
+    color: white;
+    background-color: #ad1b1b;
+    transform: scale(1.4);
+    animation-name: exampleAnimation;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    transition: background-color 1s, color 1s;
+}
+
+
+header > p:hover {
+    color: white;
+    transform: scale(1.5);
+    animation-name: exampleAnimation;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    transition: color 1s;
+}
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.news{
+    margin:20px;
+    padding: 20px;
+    width:400px;
+}
+.news:hover{
+    animation-name: rotateElement;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+img{
+    width:300px;
+}
+
+footer{
+    height:100px;
+    background-color: #fc18fc;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+footer>a{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+
+}
+footer>p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+@keyframes exampleAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+@keyframes rotateElement {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(180deg);
+    }
+}
