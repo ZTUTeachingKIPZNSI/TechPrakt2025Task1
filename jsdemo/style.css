@@ -1,10 +1,58 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-div.user div {
+
+.panel {
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
     cursor: pointer;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+.user.selected {
+    background-color: #28a745;
+    color: white;
+}
+
+.user .name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.user .age, .user .title {
+    font-size: 1em;
+    color: #666;
 }
