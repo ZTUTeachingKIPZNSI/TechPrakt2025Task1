@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини та користувачі</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="js/main.js"></script>
     <script defer src="js/index.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
-    <div class="panel" id="one">
-        <div class="header">
-            <div class="title">Title</div>
+<header>
+    <h1>Головна сторінка</h1>
+</header>
+
+<main>
+    <section id="panels">
+        <div class="panel">
+            <div class="header"><div class="title">Перша панель</div></div>
         </div>
-    </div>
-    <div class="panel">
-        <div class="header">
-            <div class="title">Title</div>
+        <div class="panel">
+            <div class="header"><div class="title">Друга панель</div></div>
         </div>
-    </div>
-    <div class="panel">
-        <div class="header">
-            <div class="title">Title</div>
+        <div class="panel">
+            <div class="header"><div class="title">Третя панель</div></div>
         </div>
-    </div>
+    </section>
+
+    <section id="user-container">
+        <!-- Користувачі додаються через JavaScript -->
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Ваша компанія. Всі права захищені.</p>
+</footer>
 </body>
 </html>
