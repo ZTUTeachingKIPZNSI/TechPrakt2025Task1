@@ -1,10 +1,15 @@
 div.user {
-    border:1px solid black;
-    padding:10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
 }
+
 div.user div {
     cursor: pointer;
 }
+
 div.user.selected {
-    background-color: greenyellow;
+    background-color: #b0f57b;
+    border-color: #6fa63f; 
 }
