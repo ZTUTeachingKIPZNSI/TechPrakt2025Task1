@@ -1,43 +1,43 @@
 let arr = [
     {
-        "name": "Petro",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },
     {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     }, {
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
     },{
-        "name": "Sergiy",
-        "age": 19,
+        "name": "Христюк Максим",
+        "age": "ipz232-khma",
         "title": "description"
-    },
+    }
 ];
 
 class UserPanels {
@@ -48,15 +48,18 @@ class UserPanels {
         this.initializeStateArray();
         this.#build();
     }
+
     initializeStateArray() {
         this.#stateArray = new Array(this.#userArray.length);
         for(let i = 0; i < this.#stateArray.length; i++) {
             this.#stateArray[i] = false;
         }
     }
+
     saveState() {
         localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
     }
+
     loadState() {
         if (localStorage.getItem('panels-state')) {
             try {
@@ -68,6 +71,7 @@ class UserPanels {
             }
         }
     }
+
     #build() {
         this.loadState();
         let containerTag = document.createElement('div');
@@ -86,6 +90,7 @@ class UserPanels {
             }
             containerTag.appendChild(divTag);
         }
+
         document.body.appendChild(containerTag);
         document.documentElement.addEventListener('click',
             (event) => {

@@ -29,7 +29,7 @@ class Admin extends User {
         this.#role = role;
     }
 }
-const user = new User('admin', '123456');
+const user = new User('admin', '12345');
 
 let panelParams = {
     //width : 300,
