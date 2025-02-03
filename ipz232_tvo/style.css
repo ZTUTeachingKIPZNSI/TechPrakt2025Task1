@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* світлий фон */
+    color: #444; /* доданий колір тексту */
+}
+
+header {
+    background-color: #0073e6; /* основний колір */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold; /* додано жирність шрифту */
+}
+
+.news-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px; /* додано внутрішні відступи */
+}
+
+.news-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* додано плавний ефект */
+}
+
+.news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* додано ефект при наведенні */
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px; /* додано згладжування кутів */
+}
+
+.news-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.news-item p {
+    color: #666;
+    font-size: 0.9rem; /* змінено розмір шрифту */
+}
