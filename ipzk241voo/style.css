@@ -4,10 +4,17 @@
 }
 
 .block { 
-    border-radius: 30%;
     width: 450px;
 }
 
 .__block { 
+    border: 3px solid black;
     margin-top: 10px;
+}
+
+.block_image { 
+    float: right;
+    margin-left: 10px;
+    max-width: 100px;
+    height: auto;
 }
