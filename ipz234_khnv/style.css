@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ececec;
 }
 
 header {
     background-color: #333;
-    color: white;
+    color: #dad7d7;
     text-align: center;
     padding: 20px;
 }
 
 main {
-    max-width: 800px;
+    max-width: 100px;
     margin: 20px auto;
     padding: 20px;
     background: white;
@@ -21,7 +21,7 @@ main {
 }
 
 .news article {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 15px;
     background: #fff;
     border-radius: 8px;
@@ -35,7 +35,7 @@ main {
 
 .news h2 {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .news p {
