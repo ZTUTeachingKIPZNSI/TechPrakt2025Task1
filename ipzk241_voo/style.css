@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+}
+
+.catalog { 
+    display: flexbox;
+}
+
+.block { 
+    width: 600px;
+    border: 3px black solid;
+    margin-top: 10px;
+    background-color: beige;
+}
