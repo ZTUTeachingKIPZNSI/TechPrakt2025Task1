@@ -1,104 +1,126 @@
 let arr = [
-    {
-        "name": "Petro",
-        "age": 19,
-        "title": "description"
-    },
-    {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },
-    {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },
+    { "name": "Petro", "age": 19, "title": "Student" },
+    { "name": "Sergiy", "age": 22, "title": "Engineer" },
+    { "name": "Oleh", "age": 25, "title": "Designer" }
 ];
 
 class UserPanels {
     #userArray;
     #stateArray;
+
     constructor(userArray) {
         this.#userArray = userArray;
-        this.initializeStateArray();
+        this.#stateArray = new Array(userArray.length).fill(false);
+        this.loadState();
         this.#build();
     }
-    initializeStateArray() {
-        this.#stateArray = new Array(this.#userArray.length);
-        for(let i = 0; i < this.#stateArray.length; i++) {
-            this.#stateArray[i] = false;
-        }
-    }
+
     saveState() {
         localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
     }
+
     loadState() {
-        if (localStorage.getItem('panels-state')) {
+        let savedState = localStorage.getItem('panels-state');
+        if (savedState) {
             try {
-                this.#stateArray = JSON.parse(localStorage.getItem('panels-state'));
-            }
-            catch (exception) {
-                this.initializeStateArray();
+                this.#stateArray = JSON.parse(savedState);
+            } catch {
+                this.#stateArray = new Array(this.#userArray.length).fill(false);
                 this.saveState();
             }
         }
     }
+
     #build() {
-        this.loadState();
-        let containerTag = document.createElement('div');
-        for (let i = 0; i < this.#userArray.length; i++) {
-            let divTag = document.createElement('div');
-            divTag.classList.add('user');
-            divTag.dataset['id'] = i.toString();
-            if (this.#stateArray[i])
-                divTag.classList.add('selected');
-            for (let field in this.#userArray[i]) {
-                let val = this.#userArray[i][field];
+        let container = document.getElementById('user-container');
+        container.innerHTML = ''; // Очистка контейнера
+
+        this.#userArray.forEach((user, index) => {
+            let userDiv = document.createElement('div');
+            userDiv.classList.add('user');
+            userDiv.dataset.id = index.toString();
+
+            if (this.#stateArray[index]) userDiv.classList.add('selected');
+
+            for (let key in user) {
                 let divField = document.createElement('div');
-                divField.classList.add(field);
-                divField.innerHTML = val;
-                divTag.appendChild(divField);
+                divField.classList.add(key);
+                divField.textContent = `${key}: ${user[key]}`;
+                userDiv.appendChild(divField);
             }
-            containerTag.appendChild(divTag);
-        }
-        document.body.appendChild(containerTag);
-        document.documentElement.addEventListener('click',
-            (event) => {
-                let tag = event.target;
-                tag = tag.closest('.user');
-                if (tag?.classList.contains('user')) {
-                    let id = tag.dataset['id'];
-                    this.#stateArray[id] =
-                        !this.#stateArray[id];
-                    this.saveState();
-                    tag.classList.toggle('selected');
-                }
+
+            userDiv.addEventListener('click', () => {
+                this.#stateArray[index] = !this.#stateArray[index];
+                this.saveState();
+                userDiv.classList.toggle('selected');
             });
+
+            container.appendChild(userDiv);
+        });
     }
 }
-let userPanels = new UserPanels(arr);
+
+new UserPanels(arr);
+let arr = [
+    { "name": "Petro", "age": 19, "title": "Student" },
+    { "name": "Sergiy", "age": 22, "title": "Engineer" },
+    { "name": "Oleh", "age": 25, "title": "Designer" }
+];
+
+class UserPanels {
+    #userArray;
+    #stateArray;
+
+    constructor(userArray) {
+        this.#userArray = userArray;
+        this.#stateArray = new Array(userArray.length).fill(false);
+        this.loadState();
+        this.#build();
+    }
+
+    saveState() {
+        localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
+    }
+
+    loadState() {
+        let savedState = localStorage.getItem('panels-state');
+        if (savedState) {
+            try {
+                this.#stateArray = JSON.parse(savedState);
+            } catch {
+                this.#stateArray = new Array(this.#userArray.length).fill(false);
+                this.saveState();
+            }
+        }
+    }
+
+    #build() {
+        let container = document.getElementById('user-container');
+        container.innerHTML = ''; // Очистка контейнера
+
+        this.#userArray.forEach((user, index) => {
+            let userDiv = document.createElement('div');
+            userDiv.classList.add('user');
+            userDiv.dataset.id = index.toString();
+
+            if (this.#stateArray[index]) userDiv.classList.add('selected');
+
+            for (let key in user) {
+                let divField = document.createElement('div');
+                divField.classList.add(key);
+                divField.textContent = `${key}: ${user[key]}`;
+                userDiv.appendChild(divField);
+            }
+
+            userDiv.addEventListener('click', () => {
+                this.#stateArray[index] = !this.#stateArray[index];
+                this.saveState();
+                userDiv.classList.toggle('selected');
+            });
+
+            container.appendChild(userDiv);
+        });
+    }
+}
+
+new UserPanels(arr);
