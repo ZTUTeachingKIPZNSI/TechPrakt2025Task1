@@ -70,3 +70,16 @@ main {
     color: #555;
     line-height: 1.6;
 }
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
