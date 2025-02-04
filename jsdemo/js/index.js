@@ -2,10 +2,12 @@
 class User {
     #login;
     #password;
+    #createAt;
 
     constructor(login, password) {
         this.#login = login;
         this.#password = password;
+        this.#createAt = Date.now()
     }
 
     getLogin() {
@@ -18,6 +20,7 @@ class User {
     }
     display() {
         console.log(this.#login);
+        console.log(this.#createAt);
     }
 }
 
@@ -38,11 +41,11 @@ let panelParams = {
     age : 30
 };
 
-let {title, height} = panelParams;
-let [id, title, count, price] = [1, 'title', 10, 10,5];
-let x = 1;
-let y = 2;
-[x, y] = [y, x];
+// let {title, height} = panelParams;
+// let [id, title, count, price] = [1, 'title', 10, 10,5];
+// let x = 1;
+// let y = 2;
+// [x, y] = [y, x];
 
 
 
