@@ -1,9 +1,15 @@
+// Оголошення констант
+const PANEL_WIDTH = 300;
+const PANEL_HEIGHT = 200;
+const PANEL_AGE = 30;
+const DEFAULT_LOGIN = 'admin';
+const DEFAULT_PASSWORD = '123456';
 
 class User {
     #login;
     #password;
 
-    constructor(login, password) {
+    constructor(login = DEFAULT_LOGIN, password = DEFAULT_PASSWORD) {
         this.#login = login;
         this.#password = password;
     }
@@ -16,6 +22,7 @@ class User {
     testPassword(password) {
         return this.#password === password;
     }
+
     display() {
         console.log(this.#login);
     }
@@ -24,34 +31,34 @@ class User {
 class Admin extends User {
     #role;
 
-    constructor(login, password, role) {
+    constructor(login = DEFAULT_LOGIN, password = DEFAULT_PASSWORD, role) {
         super(login, password);
         this.#role = role;
     }
 }
-const user = new User('admin', '123456');
+
+const user = new User(DEFAULT_LOGIN, DEFAULT_PASSWORD);
 
 let panelParams = {
-    //width : 300,
-    title : 'Title',
-    height : 200,
-    age : 30
+    width: PANEL_WIDTH,
+    title: 'Title',
+    height: PANEL_HEIGHT,
+    age: PANEL_AGE
 };
 
 let {title, height} = panelParams;
-let [id, title, count, price] = [1, 'title', 10, 10,5];
+let [id, panelTitle, count, price] = [1, 'title', 10, 10.5]; // Оновлено значення, де потрібно
 let x = 1;
 let y = 2;
 [x, y] = [y, x];
-
-
 
 function func2(a, b, c) {
     console.log(a);
     console.log(b);
     console.log(c);
 }
-/*let arr2 = [1,2,3,4,5];
+
+/*let arr2 = [1, 2, 3, 4, 5];
 func2(...arr2);*/
 
 /*

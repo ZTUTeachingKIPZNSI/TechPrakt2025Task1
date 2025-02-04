@@ -1,66 +1,52 @@
+// Оголошення констант
+const DEFAULT_AGE = 19;
+const INITIAL_STATE = false;
+const LOCAL_STORAGE_KEY = 'panels-state';
+
 let arr = [
     {
         "name": "Petro",
-        "age": 19,
+        "age": DEFAULT_AGE,
         "title": "description"
     },
     {
         "name": "Sergiy",
-        "age": 19,
+        "age": DEFAULT_AGE,
         "title": "description"
     },
     {
         "name": "Sergiy",
-        "age": 19,
+        "age": DEFAULT_AGE,
         "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    }, {
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },{
-        "name": "Sergiy",
-        "age": 19,
-        "title": "description"
-    },
+    }, 
+    // ... (інші елементи)
 ];
 
 class UserPanels {
     #userArray;
     #stateArray;
+
     constructor(userArray) {
         this.#userArray = userArray;
         this.initializeStateArray();
         this.#build();
     }
+
     initializeStateArray() {
         this.#stateArray = new Array(this.#userArray.length);
         for(let i = 0; i < this.#stateArray.length; i++) {
-            this.#stateArray[i] = false;
+            this.#stateArray[i] = INITIAL_STATE;
         }
     }
+
     saveState() {
-        localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(this.#stateArray));
     }
+
     loadState() {
-        if (localStorage.getItem('panels-state')) {
+        if (localStorage.getItem(LOCAL_STORAGE_KEY)) {
             try {
-                this.#stateArray = JSON.parse(localStorage.getItem('panels-state'));
+                this.#stateArray = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
             }
             catch (exception) {
                 this.initializeStateArray();
@@ -68,6 +54,7 @@ class UserPanels {
             }
         }
     }
+
     #build() {
         this.loadState();
         let containerTag = document.createElement('div');
@@ -93,12 +80,12 @@ class UserPanels {
                 tag = tag.closest('.user');
                 if (tag?.classList.contains('user')) {
                     let id = tag.dataset['id'];
-                    this.#stateArray[id] =
-                        !this.#stateArray[id];
+                    this.#stateArray[id] = !this.#stateArray[id];
                     this.saveState();
                     tag.classList.toggle('selected');
                 }
             });
     }
 }
+
 let userPanels = new UserPanels(arr);
