@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2699ba38-ad8d-4f73-8edd-7755fea0449d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+=======
+>>>>>>> second
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "second",
+<<<<<<< HEAD
     "last_opened_file_path": "E:/1Житомирська політехніка/Технологічна практика/Система контролю версій Git/task 2/TechPrakt2025Task1/ipz234_khnv",
+=======
+    "last_opened_file_path": "E:/1Житомирська політехніка/Технологічна практика/Система контролю версій Git/task 2/TechPrakt2025Task1/ipz234_khnv/images",
+>>>>>>> second
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,10 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1738693463938</updated>
       <workItem from="1738693465057" duration="1168000" />
+<<<<<<< HEAD
       <workItem from="1738694955038" duration="18000" />
       <workItem from="1738694975228" duration="42000" />
       <workItem from="1738696048148" duration="881000" />
       <workItem from="1738698162954" duration="301000" />
+=======
+      <workItem from="1738698934441" duration="38000" />
+>>>>>>> second
     </task>
     <servers />
   </component>
