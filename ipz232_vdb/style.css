@@ -120,3 +120,210 @@ div.main-title > div {
     align-items: center;
     flex-direction: column;
 }
+
+@media screen and (min-width: 1200px) {
+    .main-title > div {
+        margin: 150px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title > div {
+        margin: 50px 0;
+    }
+}
+
+div.main-title > div div:nth-child(1) {
+    color: rgba(255, 255, 255, 0.702);
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0 2px 40px rgba(1, 1, 1, 0.5);
+}
+
+div.main-title > div div:nth-child(2) {
+    font-size: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 2px 40px rgba(1, 1, 1, 0.5);
+}
+
+div.main-title > div div:nth-child(3) {
+    margin: 30px 0;
+}
+
+div.main-title > div div:nth-child(3) button {
+    --bs-btn-padding-y: 15px;
+    --bs-btn-padding-x: 60px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 25px 60px;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 250ms;
+}
+
+div.main-title > div div:nth-child(3) button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 300ms;
+}
+
+div.main-title > div div:nth-child(4) {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    text-shadow: 0 2px 40px rgba(1, 1, 1, 0.55);
+}
+
+div.main-title > div div:nth-child(4) a {
+    color: white;
+    font-weight: bold;
+}
+
+div.masthead > img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+}
+
+div.light-icons {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.cards {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.cards div:nth-child(2) {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+div.cards div:nth-child(2) hr {
+    margin: 30px 0;
+}
+
+div.cards div:nth-child(3) {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+div.app {
+    font-family: "Lato", sans-serif;
+    padding-top: 100px;
+    display: flex;
+}
+
+div.iphone img {
+    width: 100%;
+    max-width: 548px;
+}
+
+div.iphone-text {
+    margin-left: 30px;
+}
+
+div.iphone-text div:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+div.iphone-text div:nth-child(1) hr {
+    width: 100px;
+    margin: 20px 0;
+}
+
+div.iphone-text div:nth-child(2) {
+    font-size: 16px;
+}
+
+div.iphone-text div:nth-child(2) p {
+    margin-bottom: 35px;
+}
+
+div.iphone-text div:nth-child(3) {
+    display: flex;
+}
+
+div.iphone-text div:nth-child(3) img {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    div.app {
+        padding-bottom: 30px;
+    }
+    div.iphone {
+        display: none;
+    }
+}
+
+div.bg-purple {
+    background-image: url("img/purple.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+div.review {
+    padding: 80px 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.review div {
+    padding-bottom: 20px;
+}
+
+div.review div:nth-child(2) {
+    font-family: "Lato Hit", sans-serif;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+div.review div:nth-child(3) {
+    font-family: "Lato Hit", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+div.recipes {
+    padding: 80px 0 60px;
+}
+
+div.recipes > div:nth-child(1) {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.recipes div hr {
+    width: 50px;
+    margin: 10px auto 30px;
+}
+
+div.recipes > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.recipes > div:nth-child(2) > div {
+    position: relative;
+}
+
