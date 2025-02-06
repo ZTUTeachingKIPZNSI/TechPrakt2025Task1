@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0e0e0;
 }
 header {
     background-color: #333;
@@ -20,7 +20,7 @@ div {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 h2 {
-    color: #333;
+    color: blue;
 }
 img {
     max-width: 100%;
