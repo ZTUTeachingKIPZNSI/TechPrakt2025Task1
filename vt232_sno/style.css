@@ -8,15 +8,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 header {
-    background: #4CAF50;
+    background: #4b0a87;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    font-size: 24px;
+    padding: 40px 0;
+    font-size: 34px;
 }
 .news {
     width: 80%;
@@ -24,7 +24,7 @@ header {
 }
 .news-item {
     background: white;
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
