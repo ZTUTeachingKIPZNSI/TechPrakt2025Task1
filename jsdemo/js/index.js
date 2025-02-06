@@ -2,11 +2,14 @@
 class User {
     #login;
     #password;
+    #email;
 
-    constructor(login, password) {
+    constructor(login, password, email) {
         this.#login = login;
         this.#password = password;
+        this.#email = email;
     }
+
 
     getLogin() {
         console.log(this);
