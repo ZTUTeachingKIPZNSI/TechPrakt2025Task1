@@ -1,0 +1,22 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+h1{
+    color: black;
+}
+
+.news{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.news img {
+    max-width: 100%;
+    height: auto;
+}
