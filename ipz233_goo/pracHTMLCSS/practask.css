@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #282c34;
+    background-color: #e90000;
 }
 
 .container {
@@ -12,6 +12,6 @@ body {
 
 #oleg {
     position: absolute;
-    width: 400px;
+    width: 250px;
     height: auto;
 }
