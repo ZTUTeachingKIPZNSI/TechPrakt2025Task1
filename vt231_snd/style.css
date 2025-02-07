@@ -5,11 +5,11 @@
 }
 .news-item {
     border: 1px solid black;
-    width: 30vw;
+    width: 50vw;
     margin-bottom: 50px;
 }
 img {
-    width: 30vw;
+    width: 50vw;
 }
 h1 {
     text-align: center;
