@@ -32,3 +32,9 @@ body {
 .news p {
     color: #666;
 }
+.news {
+    transition: transform 0.3s ease;
+}
+.news:hover {
+    transform: scale(1.05);
+}
