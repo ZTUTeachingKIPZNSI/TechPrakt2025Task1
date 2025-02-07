@@ -41,11 +41,13 @@ main {
         content: '→';
         display: inline-block;
         opacity: 0;
-        transition: all 0.3s ease;
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease;
     }
 
     &:hover:after {
         opacity: 1;
-        transform: translateX(5px);
+        transform: translateX(7px);
     }
 }
