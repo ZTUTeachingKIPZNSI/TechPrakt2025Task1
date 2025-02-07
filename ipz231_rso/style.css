@@ -5,7 +5,31 @@
 }
 
 body {
-	background: lightpink;
+	background: #f6c6cb;
 	display: flex;
 	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#news-container {
+	display: inline-flex;
+	max-width: 1250px;
+	flex-wrap: wrap;
+	justify-content: center;
+	> * {
+		margin: 20px;
+	}
+}
+
+.news {
+	background: hotpink;
+	margin: 5px;
+	color: white;
+	min-width: 500px;
+	min-height: 250px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
