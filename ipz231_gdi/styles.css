@@ -22,3 +22,26 @@ main {
     height: 320px;
     object-fit: cover;
 }
+
+.news-card__link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #004080;
+    }
+
+    &:after {
+        content: '→';
+        display: inline-block;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    &:hover:after {
+        opacity: 1;
+        transform: translateX(5px);
+    }
+}
