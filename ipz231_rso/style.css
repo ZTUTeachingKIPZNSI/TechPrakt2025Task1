@@ -7,14 +7,25 @@
 body {
 	background: #f6c6cb;
 	display: flex;
+	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
 	align-items: center;
 }
 
+#tip {
+	margin-top: 20px;
+	font-size: 24px;
+	color: black;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
 #news-container {
 	display: inline-flex;
-	max-width: 1250px;
+	max-width: 1300px;
 	flex-wrap: wrap;
 	justify-content: center;
 	> * {
@@ -25,11 +36,27 @@ body {
 .news {
 	background: hotpink;
 	margin: 5px;
+	padding: 15px;
 	color: white;
-	min-width: 500px;
-	min-height: 250px;
+	min-width: 400px;
+	min-height: 300px;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.news-media {
+	border-radius: 5px;
+	max-width: 300px;
+}
+
+.news-text {
+	margin-top: 10px;
+	max-width: 300px;
+	text-wrap: wrap;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
 }
