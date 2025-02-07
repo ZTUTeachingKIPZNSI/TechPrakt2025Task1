@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.news-item {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.news-item img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.news-item h2 {
+    margin-top: 0;
+}
+.news-item p {
+    line-height: 1.6;
+}
