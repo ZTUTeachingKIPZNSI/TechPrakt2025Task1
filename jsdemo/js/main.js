@@ -49,10 +49,8 @@ class UserPanels {
         this.#build();
     }
     initializeStateArray() {
-        this.#stateArray = new Array(this.#userArray.length);
-        for(let i = 0; i < this.#stateArray.length; i++) {
-            this.#stateArray[i] = false;
-        }
+        const length = this.#userArray.length;
+        this.#stateArray = Array.from({ length }, _ => false);
     }
     saveState() {
         localStorage.setItem('panels-state', JSON.stringify(this.#stateArray));
