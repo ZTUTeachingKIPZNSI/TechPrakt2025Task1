@@ -3,3 +3,5 @@
 
 Список студентів, які виконали завдання:
 * Рудніцький Сергій Олександрович, група ІПЗ-23-1
+
+[darkvoidkitty@gmail.com](mailto:darkvoidkitty@gmail.com)
