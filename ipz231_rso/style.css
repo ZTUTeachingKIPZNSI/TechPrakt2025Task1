@@ -20,7 +20,7 @@ body {
 	font-family: "Comic Sans MS", cursive;
 	font-weight: bold;
 	opacity: 0;
-	transition: opacity 1s;
+	transition: opacity 5s;
 }
 
 #news-container {
