@@ -71,3 +71,24 @@ section p {
     font-size: 16px;
     line-height: 1.6;
 }
+/* Адаптивність */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section img {
+        margin: 0 auto 15px;
+    }
+}
+
+/* Ефекти */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
