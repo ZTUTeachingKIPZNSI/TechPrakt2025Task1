@@ -1,0 +1,14 @@
+.news {
+    outline: 1px solid black;
+    position: relative;
+    width: 31%;
+}
+.news div {
+    width: max-content;
+}
+img {
+    width: 99%;
+}
+p {
+    font-size: 26px;
+}
