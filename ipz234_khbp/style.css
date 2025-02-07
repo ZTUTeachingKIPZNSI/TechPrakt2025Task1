@@ -1,14 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-}
-h1 {
+    background: linear-gradient(to right, #f7f7f7, #dfe9f3);
     color: #333;
 }
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
 .news {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
