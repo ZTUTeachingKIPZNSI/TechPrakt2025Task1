@@ -5,36 +5,66 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     width: 90%;
     max-width: 1200px;
+    padding: 20px;
 }
+
 .news {
     background: #fff;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Для розміщення кнопки внизу */
+    display: flex;
+    flex-direction: column;
 }
+
 .news img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
 }
+
 .news h2 {
     margin-top: 0;
     color: #333;
 }
+
 .news p {
     color: #666;
 }
+
 .news {
     transition: transform 0.3s ease;
 }
+
 .news:hover {
     transform: scale(1.05);
+}
+
+.social-share {
+    margin-top: auto; /* Це розміщає блок кнопки внизу */
+    text-align: right;
+}
+
+.share-btn {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.share-btn:hover {
+    background-color: #6B0000;
 }
