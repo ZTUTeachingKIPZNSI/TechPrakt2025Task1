@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
 
 .news h2 {
     margin-top: 0;
-    color: #333;
+    color: #004d40;
 }
 
 .news p {
@@ -56,7 +56,7 @@ body {
 }
 
 .share-btn {
-    background-color: #8B0000;
+    background-color: #00695c;
     color: white;
     border: none;
     padding: 8px 15px;
