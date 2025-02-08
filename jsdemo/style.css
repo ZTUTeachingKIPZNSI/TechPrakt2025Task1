@@ -4,7 +4,8 @@ div.user {
 }
 div.user div {
     cursor: pointer;
+    padding: 5px;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: yellow;
 }
