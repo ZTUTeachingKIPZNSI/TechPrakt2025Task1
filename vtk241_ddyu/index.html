@@ -48,9 +48,7 @@
           </div>
           <div class="intro__right-col">
             <div class="date-block">
-              <p>
-                <time>10/10/2020</time>
-              </p>
+              <p><time class="time-font12 dynamic-date"></time></p>
               <a href="#">Lifestyle</a>
             </div>
 
@@ -81,9 +79,7 @@
                   />
                 </div>
                 <div class="featured__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">lifestyle</a>
                 </div>
                 <div class="featured__title-subtitle-block">
@@ -102,9 +98,7 @@
                   <img src="images/featured-img-right.png" alt="" />
                 </div>
                 <div class="featured__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">lifestyle</a>
                 </div>
                 <div class="featured__title-subtitle-block">
@@ -126,9 +120,7 @@
                   <img src="images/featured-img-1.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">lifestyle</a>
                 </div>
                 <h3 class="three-col__title">
@@ -141,9 +133,7 @@
                   <img src="images/featured-img-2.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">lifestyle</a>
                 </div>
                 <h3 class="three-col__title">At vero eos et</h3>
@@ -154,9 +144,7 @@
                   <img src="images/featured-img-3.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">lifestyle</a>
                 </div>
                 <h3 class="three-col__title">
@@ -193,9 +181,7 @@
                   <img src="images/inerview-img-1.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">interviews</a>
                 </div>
                 <h3 class="three-col__title inerviews__three-col-title">
@@ -208,9 +194,7 @@
                   <img src="images/inerview-img-2.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">interviews</a>
                 </div>
                 <h3 class="three-col__title inerviews__three-col-title">
@@ -223,9 +207,7 @@
                   <img src="images/inerview-img-3.png" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">interviews</a>
                 </div>
                 <h3 class="three-col__title inerviews__three-col-title">
@@ -246,9 +228,7 @@
                   <img src="images/news-img1.jpg" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">news</a>
                 </div>
                 <h3 class="three-col__title news__three-col-title">
@@ -261,9 +241,7 @@
                   <img src="images/news-img2.jpg" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">news</a>
                 </div>
                 <h3 class="three-col__title news__three-col-title">
@@ -276,9 +254,7 @@
                   <img src="images/news-img3.jpg" alt="" />
                 </div>
                 <div class="three-col__date-block">
-                  <p>
-                    <time class="time-font12">10/10/2020</time>
-                  </p>
+                  <p><time class="time-font12 dynamic-date"></time></p>
                   <a href="" class="a-font12">news</a>
                 </div>
                 <h3 class="three-col__title news__three-col-title">
@@ -306,4 +282,14 @@
       </footer>
     </div>
   </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const dateElements = document.querySelectorAll('.dynamic-date')
+      const currentDate = new Date().toLocaleDateString('en-GB') // Format: DD/MM/YYYY
+
+      dateElements.forEach((element) => {
+        element.textContent = currentDate
+      })
+    })
+  </script>
 </html>
