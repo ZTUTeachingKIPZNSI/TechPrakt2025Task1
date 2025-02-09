@@ -101,4 +101,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+footer {
+    background-color: #8022c1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
 
