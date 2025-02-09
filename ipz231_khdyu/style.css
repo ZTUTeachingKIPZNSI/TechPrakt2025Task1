@@ -1,4 +1,10 @@
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 16px;
+    background: lightblue;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 5px;
 }
