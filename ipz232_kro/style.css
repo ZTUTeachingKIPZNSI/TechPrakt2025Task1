@@ -108,5 +108,24 @@ footer {
     padding: 15px;
     margin-top: auto;
 }
+.social-links {
+    margin-top: 10px;
+}
 
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.social-links a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
 
