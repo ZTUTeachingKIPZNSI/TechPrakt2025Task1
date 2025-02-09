@@ -1,1 +1,43 @@
-frjkzklds
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background: #eabf7c;
+}
+header, nav, footer {
+    text-align: center;
+}section{
+     padding: 20px;
+ }
+@media (min-width: 768px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+article {
+    width: 45%;
+    margin-bottom: 20px;
+}
+.photo{
+    width: 200px;
+    height:200px;
+}
+.pum{
+    display: flex;
+}
