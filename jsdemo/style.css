@@ -1,10 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 div.user {
     border:1px solid black;
-    padding:10px;
+    padding: 5px;
+    margin: 10px;
 }
 div.user div {
     cursor: pointer;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: green;
 }

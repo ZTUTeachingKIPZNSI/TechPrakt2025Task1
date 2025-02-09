@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #b1b1ec;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #dbd5d5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.news-item {
+    margin-bottom: 30px;
+}
+.news-item img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.news-item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.news-item p {
+    margin: 0;
+}
