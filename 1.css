@@ -42,7 +42,7 @@ main {
 }
 
 article {
-    background-color: white;
+    background-color: #9f4848;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -67,7 +67,7 @@ article p {
 }
 
 article a {
-    color: #4CAF50;
+    color: #00ff09;
     font-weight: bold;
     text-decoration: none;
 }
@@ -77,7 +77,7 @@ article a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #ec0606;
     color: white;
     text-align: center;
     padding: 10px;
