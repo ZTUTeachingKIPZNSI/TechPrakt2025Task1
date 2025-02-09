@@ -1,10 +1,17 @@
 div.user {
-    border:1px solid black;
+    border:2px solid black;
     padding:10px;
 }
 div.user div {
-    cursor: pointer;
+    cursor: grab;
 }
 div.user.selected {
-    background-color: greenyellow;
+    background-color: #b66fff;
+}
+
+div.user:hover {
+    background-color: #d3b8ff;
+}
+div.user input[type="radio"] {
+    display: none;
 }
