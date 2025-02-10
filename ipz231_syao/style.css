@@ -1,0 +1,94 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Навігація */
+header {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Підвал */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Оформлення секцій */
+section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 10px auto;
+    max-width: 900px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section img {
+    max-width: 250px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+section h1 {
+    font-size: 22px;
+    color: #333;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #666;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Адаптивність */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section img {
+        margin: 0 auto 15px;
+    }
+}
+
+/* Ефекти */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
