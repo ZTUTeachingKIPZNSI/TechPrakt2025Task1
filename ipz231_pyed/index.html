@@ -5,26 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Новини</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    .sidebar {
+      width: 25%;
+      background: #eef;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .content {
+      width: 50%;
+    }
+  </style>
 </head>
 <body>
 <h1>Останні новини</h1>
 
-<div class="news">
-  <img src="images/cat.jpg" alt="Новина 1">
-  <h2>Заголовок новини 1</h2>
-  <p>Опис першої новини. Тут буде короткий текст про подію.</p>
+<div class="container">
+  <div class="sidebar">
+    <h3>Цікаві факти про природу</h3>
+    <ul>
+      <li>Коали сплять до 20 годин на день.</li>
+      <li>Дельфіни можуть спати лише однією півкулею мозку.</li>
+      <li>Бджоли можуть впізнавати людські обличчя.</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="news">
+      <img src="images/cat.jpg" alt="Новина 1">
+      <h2>Заголовок новини 1</h2>
+      <p>Опис першої новини. Тут буде короткий текст про подію.</p>
+    </div>
+
+    <div class="news">
+      <img src="images/dog.jpg" alt="Новина 2">
+      <h2>Заголовок новини 2</h2>
+      <p>Опис другої новини. Тут буде короткий текст про подію.</p>
+    </div>
+
+    <div class="news">
+      <img src="images/flower.jpg" alt="Новина 3">
+      <h2>Заголовок новини 3</h2>
+      <p>Опис третьої новини. Тут буде короткий текст про подію.</p>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <h3>Цікаві факти про природу</h3>
+    <ul>
+      <li>Крокодили можуть жити без їжі більше року.</li>
+      <li>Метелики відчувають смак лапками.</li>
+      <li>Банани - це ягоди, а полуниця - ні.</li>
+    </ul>
+  </div>
 </div>
 
-<div class="news">
-  <img src="images/dog.jpg" alt="Новина 2">
-  <h2>Заголовок новини 2</h2>
-  <p>Опис другої новини. Тут буде короткий текст про подію.</p>
-</div>
-
-<div class="news">
-  <img src="images/flower.jpg" alt="Новина 3">
-  <h2>Заголовок новини 3</h2>
-  <p>Опис третьої новини. Тут буде короткий текст про подію.</p>
-</div>
 </body>
 </html>
