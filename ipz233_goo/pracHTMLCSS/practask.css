@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #e90000;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#oleg {
+    position: absolute;
+    width: 250px;
+    height: auto;
+}
